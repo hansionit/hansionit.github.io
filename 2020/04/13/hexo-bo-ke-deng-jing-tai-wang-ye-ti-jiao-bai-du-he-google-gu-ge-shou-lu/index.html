@@ -485,14 +485,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    842
+                    1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    4 分
                 </div>
                 
 
@@ -536,7 +536,26 @@ hexo d</code></pre><p>此时会在<code>public</code>目录下生成两个文件
 <p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210038.png" alt=""></p>
 </li>
 </ol>
-<h2 id="提交到百度站长"><a href="#提交到百度站长" class="headerlink" title="提交到百度站长"></a>提交到百度站长</h2><h3 id="sitemap方式提交"><a href="#sitemap方式提交" class="headerlink" title="sitemap方式提交"></a>sitemap方式提交</h3><ol>
+<h2 id="提交到百度站长"><a href="#提交到百度站长" class="headerlink" title="提交到百度站长"></a>提交到百度站长</h2><h3 id="解决百度不爬取Github-Pages的问题"><a href="#解决百度不爬取Github-Pages的问题" class="headerlink" title="解决百度不爬取Github Pages的问题"></a>解决百度不爬取Github Pages的问题</h3><p>如果你的博客部署在Github Pages,百度是不会爬取的，这种情况需要借用其他平台转换一下。</p>
+<p>这里以coding为例</p>
+<ol>
+<li><p>在coding中也创建一个博客项目，取得提交地址</p>
+</li>
+<li><p>在博客根目录的<code>_config.yml</code>中添加coding仓库的配置，注意增加了<code>-</code>号，这样在部署的时候会同时部署到Github 和 coding</p>
+<pre><code>deploy:
+- type: git
+  repository: https://github.com/hansionit/hansionit.github.io.git
+  branch: master
+- type: git
+  repository: https://e.coding.net/hansion_it/Blog.git
+  branch: master</code></pre></li>
+<li><p><code>hexo g -d</code>生成部署一下，会提交代码到coding</p>
+</li>
+<li><p>在coding中开启pages服务，配置自定义域名，在你的域名解析控制台增加两条CNAME，解析线路选择<code>百度</code>，让百度解析到coding的地址</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414122236.png" alt=""></p>
+</li>
+</ol>
+<h3 id="sitemap方式提交"><a href="#sitemap方式提交" class="headerlink" title="sitemap方式提交"></a>sitemap方式提交</h3><ol>
 <li><p>查询是否被收录</p>
 <pre><code>site:你的域名</code></pre></li>
 </ol>
@@ -1356,7 +1375,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.8k</span>&nbsp;字
+                class="white-color">3k</span>&nbsp;字
             
             
             
