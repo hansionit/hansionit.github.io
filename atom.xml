@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://hansionit.github.io/blog/"/>
+  <link href="https://hansionit.github.io/"/>
   <updated>2020-04-14T01:24:18.920Z</updated>
-  <id>https://hansionit.github.io/blog/</id>
+  <id>https://hansionit.github.io/</id>
   
   <author>
     <name>Hansion</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo博客等静态网页提交百度和Google谷歌收录</title>
-    <link href="https://hansionit.github.io/blog/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/"/>
-    <id>https://hansionit.github.io/blog/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/</id>
+    <link href="https://hansionit.github.io/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/"/>
+    <id>https://hansionit.github.io/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/</id>
     <published>2020-04-13T12:18:01.000Z</published>
     <updated>2020-04-14T01:24:18.920Z</updated>
     
@@ -36,19 +36,19 @@
     </summary>
     
     
-      <category term="博客搭建" scheme="https://hansionit.github.io/blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="博客搭建" scheme="https://hansionit.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="博客搭建" scheme="https://hansionit.github.io/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="博客搭建" scheme="https://hansionit.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="Hexo" scheme="https://hansionit.github.io/blog/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://hansionit.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Git新建仓库提交代码</title>
-    <link href="https://hansionit.github.io/blog/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/"/>
-    <id>https://hansionit.github.io/blog/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/</id>
+    <link href="https://hansionit.github.io/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/"/>
+    <id>https://hansionit.github.io/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/</id>
     <published>2020-04-13T11:38:55.000Z</published>
     <updated>2020-04-13T12:06:00.996Z</updated>
     
@@ -66,17 +66,17 @@
     </summary>
     
     
-      <category term="Git" scheme="https://hansionit.github.io/blog/categories/Git/"/>
+      <category term="Git" scheme="https://hansionit.github.io/categories/Git/"/>
     
     
-      <category term="Git" scheme="https://hansionit.github.io/blog/tags/Git/"/>
+      <category term="Git" scheme="https://hansionit.github.io/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Hexo搭建个人博客-Mac/Windows-Coding/Github/码云各种平台完全介绍</title>
-    <link href="https://hansionit.github.io/blog/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/"/>
-    <id>https://hansionit.github.io/blog/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/</id>
+    <link href="https://hansionit.github.io/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/"/>
+    <id>https://hansionit.github.io/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/</id>
     <published>2020-04-13T04:29:52.000Z</published>
     <updated>2020-04-13T14:31:01.193Z</updated>
     
@@ -93,12 +93,12 @@
     </summary>
     
     
-      <category term="博客搭建" scheme="https://hansionit.github.io/blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="博客搭建" scheme="https://hansionit.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="博客搭建" scheme="https://hansionit.github.io/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <category term="博客搭建" scheme="https://hansionit.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="Hexo" scheme="https://hansionit.github.io/blog/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://hansionit.github.io/tags/Hexo/"/>
     
   </entry>
   
