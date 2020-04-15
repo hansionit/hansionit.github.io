@@ -342,7 +342,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    $('.bg-cover').css('background-image', 'url(/medias/blog_banner/' + new Date().getDay() + '.jpeg)');
 </script>
 
 
@@ -363,20 +363,20 @@
                 
                 
                 
-                <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="博客搭建: 2">
+                <a href="/categories/Git/" title="Git: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">博客搭建
-                        <span class="tag-length">2</span>
+                            style="background-color: #F9EBEA;">Git
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Git/" title="Git: 1">
+                <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="博客搭建: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">Git
-                        <span class="tag-length">1</span>
+                            style="background-color: #F5EEF8;">博客搭建
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -423,7 +423,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"博客搭建","max":3},{"name":"Git","max":3}],
+            indicator: [{"name":"Git","max":3},{"name":"博客搭建","max":3}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -434,7 +434,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [2,1],
+                    value : [1,2],
                     name : '文章分类数量'
                 }
             ]
