@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     
-        <meta name="keywords" content="git,">
+        <meta name="keywords" content="brew,">
     
     
         <meta name="description" content="Hansion博客，一个记录个人成长的地方。">
@@ -21,7 +21,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Git新建仓库提交代码 | 时光小屋</title>
+    <title>Mac使用brew安装软件缺少权限的问题 | 时光小屋</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/libs/awesome/css/all.css">
@@ -314,12 +314,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/blog_banner/2.jpeg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/blog_banner/4.jpeg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Git新建仓库提交代码</h1>
+                    <h1 class="description center-align post-title">Mac使用brew安装软件缺少权限的问题</h1>
                 </div>
             </div>
         </div>
@@ -444,8 +444,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Git/">
-                                <span class="chip bg-color">Git</span>
+                            <a href="/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/">
+                                <span class="chip bg-color">工具安装与使用</span>
                             </a>
                         
                     </div>
@@ -456,8 +456,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Git/" class="post-category">
-                                Git
+                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
+                                工具
                             </a>
                         
                     </div>
@@ -469,28 +469,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-13
+                    2020-06-04
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-15
+                    2020-06-04
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    779
+                    130
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    1 分
                 </div>
                 
 
@@ -505,69 +505,16 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h2><p>在Github/Coding/码云/GitLab等新建项目</p>
-<h2 id="提交代码"><a href="#提交代码" class="headerlink" title="提交代码"></a>提交代码</h2><ul>
-<li>在项目根目录输入<code>git init</code>初始化</li>
-<li>添加所有文件 <code>git add .</code></li>
-<li>添加更新说明 <code>git commit -m "First commit"</code></li>
-<li>设置提交地址<code>git remote add origin 第一步中项目的提交地址</code></li>
-<li>提交 <code>git push origin master</code>，第一次提交时，若采用https的方式，可能会提示输入账号密码；若采用ssh的形式，可能需要配置ssh</li>
-</ul>
-<h2 id="可能出现的错误"><a href="#可能出现的错误" class="headerlink" title="可能出现的错误"></a>可能出现的错误</h2><ol>
-<li><p>如果之后在AndroidStudio提交代码时，弹出错误：</p>
-<p>Can’t update: no tracked branch**</p>
+                <p>错误信息如下：</p>
 <blockquote>
-<p>No tracked branch configured for branch master.</p>
-<p>To make your branch track a remote branch call, for example,</p>
-<p>git branch –set-upstream master origin/master</p>
+<p>Error: The following directories are not writable by your user:<br>/usr/local/share/man/man8</p>
+<p>You should change the ownership of these directories to your user.<br>  sudo chown -R $(whoami) /usr/local/share/man/man8</p>
+<p>And make sure that your user has write permission.<br>  chmod u+w /usr/local/share/man/man8</p>
 </blockquote>
-</li>
-</ol>
-<p>   <strong>Push rejected</strong></p>
-<p>   ​       Push to origin/master was rejected</p>
-<p>   原因是没有指定分支，解决方法就是按提示</p>
-<pre><code>   git branch --set-upstream master origin/master</code></pre><ol start="2">
-<li><p>此时可能又出现一个提示：</p>
-<p>The –set-upstream flag is deprecated and will be removed. Consider using –track or –set-upstream-to</p>
-<p>Branch master set up to track remote branch master from origin.</p>
-</li>
-</ol>
-<p>   我们按着提示重新设置后就可以提交了</p>
-<pre><code>   git branch --set-upstream-to  origin/master</code></pre><p>   <img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413195242.png" alt=""></p>
-<ol start="3">
-<li>如果出现了  failed to push some refs to 问题：</li>
-</ol>
-<p>   error: failed to push some refs to ‘git@github.com:hansionit/H-Downloader.git’</p>
-<p>   hint: Updates were rejected because the remote contains work that you do</p>
-<p>   hint: not have locally. This is usually caused by another repository pushing</p>
-<p>   hint: to the same ref. You may want to first integrate the remote changes</p>
-<p>   hint: (e.g., ‘git pull …’) before pushing again.</p>
-<p>   hint: See the ‘Note about fast-forwards’ in ‘git push –help’ for details.</p>
-<p>   主要原因是github中的README.md文件不在本地代码目录中</p>
-<p>   先通过如下命令执行代码合并</p>
-<pre><code>   git pull --rebase origin master</code></pre><pre><code>如果无法pull，报错 fatal: refusing to merge unrelated histories,就改用以下命令</code></pre><pre><code>   git pull origin master --allow-unrelated-histories</code></pre><p>   然后可以看到本地代码库中多了README.md文件,再次push</p>
-<pre><code>   git push origin master</code></pre><ol start="4">
-<li><p>提示：fatal: remote origin already exists</p>
-<p>一般在执行第4步时出现，主要原因是已经添加了远程仓库了，如果需要更换，需要先移除远程仓库</p>
-<pre><code>git remote rm origin</code></pre><p>然后再重新从第4步开始</p>
-<pre><code>git remote add origin 提交地址</code></pre></li>
-</ol>
-<ol start="5">
-<li><p>提示：</p>
-<p>   warning: LF will be replaced by CRLF in 某文件</p>
-<p>   The file will have its original line endings in your working directory.</p>
-<p>一般是在执行第2步时出现，但不处理也不会影响提交，主要原因是：</p>
-<p>​    CRLF 代表CR(Carriage-Return)、LF(Line-Feed)    回车换行</p>
-<p>​    回车(CR, ASCII 13, \r) 、换行(LF, ASCII 10, \n)    这两个ACSII字符不会在屏幕有任何输出，但在Windows中广泛使用来标识一行的结束，而在Linux/UNIX系统中只有换行符。    也就是说在<strong>windows中的换行符为 CRLF， 而在linux下的换行符为：LF</strong><br>​    使用git来生成工程后，文件中的换行符为LF， 当执行git add .时，系统提示：LF 将被转换成 CRLF</p>
 <p>解决方法：</p>
-<p>​    删除刚刚生成的.git文件</p>
-<pre><code>rm -rf .git </code></pre><p>配置core.autocrlf为false</p>
-<pre><code>git config --global core.autocrlf false</code></pre><p>然后重新重第1步开始 </p>
-</li>
-</ol>
-<p>​    </p>
-<p>​    </p>
-<script>
+<pre><code>sudo chown -R `whoami`:admin /usr/local/bin
+
+sudo chown -R `whoami`:admin /usr/local/share</code></pre><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -610,7 +557,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/">http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/</a>
+                    <a href="http://www.hansion.win/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/">http://www.hansion.win/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -648,8 +595,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Git/">
-                                    <span class="chip bg-color">Git</span>
+                                <a href="/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/">
+                                    <span class="chip bg-color">工具安装与使用</span>
                                 </a>
                             
                         </div>
@@ -1084,30 +1031,30 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/">
+                <a href="/2020/06/04/mac-qie-huan-python-ban-ben/">
                     <div class="card-image">
                         
-                        <img src="/medias/blog_banner/1.jpeg" class="responsive-img" alt="Hexo博客等静态网页提交百度和Google谷歌收录">
+                        <img src="/medias/blog_banner/5.jpeg" class="responsive-img" alt="Mac切换Python版本">
                         
-                        <span class="card-title">Hexo博客等静态网页提交百度和Google谷歌收录</span>
+                        <span class="card-title">Mac切换Python版本</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            部署了博客之后，肯定是希望别人可以搜索到咱。来看看如何提交百度和谷歌收录吧
+                            教你如何让系统默认使用我们需要的Python版本
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-13
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                    博客搭建
+                            <a href="/categories/Python/" class="post-category">
+                                    Python
                                 </a>
                             
                             
@@ -1117,12 +1064,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">博客搭建</span>
-                    </a>
-                    
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
+                    <a href="/tags/Python/">
+                        <span class="chip bg-color">Python</span>
                     </a>
                     
                 </div>
@@ -1136,30 +1079,30 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/">
+                <a href="/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/">
                     <div class="card-image">
                         
-                        <img src="/medias/blog_banner/0.jpeg" class="responsive-img" alt="Hexo搭建个人博客-Mac/Windows-Coding/Github/码云各种平台完全介绍">
+                        <img src="/medias/blog_banner/3.jpeg" class="responsive-img" alt="Mac OS安装brew和安装wget">
                         
-                        <span class="card-title">Hexo搭建个人博客-Mac/Windows-Coding/Github/码云各种平台完全介绍</span>
+                        <span class="card-title">Mac OS安装brew和安装wget</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本文从Mac和Windows两种平台讲解如何使用Hexo搭建个人博客
+                            手把手教你安装brew和安装wget
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-04
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                    博客搭建
+                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
+                                    工具
                                 </a>
                             
                             
@@ -1169,12 +1112,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">博客搭建</span>
-                    </a>
-                    
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
+                    <a href="/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/">
+                        <span class="chip bg-color">工具安装与使用</span>
                     </a>
                     
                 </div>

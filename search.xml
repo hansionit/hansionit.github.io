@@ -4,6 +4,121 @@
   
     
     <entry>
+      <title>修改Android Studio的build-gradle默认模板</title>
+      <link href="/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/"/>
+      <url>/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/</url>
+      
+        <content type="html"><![CDATA[<p>此处以Mac OS 为例</p><p>打开Finder，在左侧找到“应用程序” -&gt; Android Studio -&gt; 显示包内容</p><p>具体路径：</p><blockquote><p>/Applications/Android Studio.app/Contents/plugins/android/lib/templates/gradle-projects/NewAndroidProject/root/build.gradle.ftl</p></blockquote><p>打开该文件，即可进行自定义修改，例如我在此模板中增加了国内阿里云镜像</p><pre><code>maven { url 'https://maven.aliyun.com/repository/google/' }maven { url 'https://maven.aliyun.com/repository/jcenter/' }maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }</code></pre><p>修改后内容如下：</p><pre><code>// Top-level build file where you can add configuration options common to all sub-projects/modules.buildscript {    &lt;#if generateKotlin&gt;ext.kotlin_version = '${kotlinVersion}'&lt;/#if&gt;    repositories {        maven { url 'https://maven.aliyun.com/repository/google/' }        maven { url 'https://maven.aliyun.com/repository/jcenter/' }        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }        google()        jcenter()        &lt;#if includeKotlinEapRepo!false&gt;maven { url '${kotlinEapRepoUrl}' }&lt;/#if&gt;    }    dependencies {        classpath 'com.android.tools.build:gradle:${gradlePluginVersion}'        &lt;#if generateKotlin&gt;classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"&lt;/#if&gt;        // NOTE: Do not place your application dependencies here; they belong        // in the individual module build.gradle files    }}allprojects {    repositories {        maven { url 'https://maven.aliyun.com/repository/google/' }        maven { url 'https://maven.aliyun.com/repository/jcenter/' }        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }        google()        jcenter()        &lt;#if includeKotlinEapRepo!false&gt;maven { url '${kotlinEapRepoUrl}' }&lt;/#if&gt;    }}task clean(type: Delete) {    delete rootProject.buildDir}</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+            <tag> 锦上添花小技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac切换Python版本</title>
+      <link href="/2020/06/04/mac-qie-huan-python-ban-ben/"/>
+      <url>/2020/06/04/mac-qie-huan-python-ban-ben/</url>
+      
+        <content type="html"><![CDATA[<p>Mac默认自带Python,但版本较低，例如我本机自带的版本为2.7.16</p><p>但我想使用Python3，安装了Python3，怎么才能改成默认使用我们想要的版本呢？</p><p>此处以切换至Python3为例</p><h3 id="获取路径"><a href="#获取路径" class="headerlink" title="获取路径"></a>获取路径</h3><p>首先输入python3,会看到Python3.x的版本</p><p>输入</p><pre><code>import sys</code></pre><p>输入</p><pre><code>print(sys.path)</code></pre><p>会看到路径</p><blockquote><p>[‘’, ‘/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python37.zip’, ‘/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7’, ‘/usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload’, ‘/Users/hansion/Library/Python/3.7/lib/python/site-packages’, ‘/usr/local/lib/python3.7/site-packages’]</p></blockquote><p>退出 输入 which python3.7</p><p>会看到路径/usr/local/bin/python3.7</p><h3 id="配置环境变量"><a href="#配置环境变量" class="headerlink" title="配置环境变量"></a>配置环境变量</h3><pre><code>open ~/.bash_profile</code></pre><p>增加 <code>alias python="/usr/local/bin/python3.7"</code>保存退出</p><p>使生效<code>source ~/.bash_profile</code></p><p>验证<code>python --version</code></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac使用brew安装软件缺少权限的问题</title>
+      <link href="/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/"/>
+      <url>/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/</url>
+      
+        <content type="html"><![CDATA[<p>错误信息如下：</p><blockquote><p>Error: The following directories are not writable by your user:<br>/usr/local/share/man/man8</p><p>You should change the ownership of these directories to your user.<br>  sudo chown -R $(whoami) /usr/local/share/man/man8</p><p>And make sure that your user has write permission.<br>  chmod u+w /usr/local/share/man/man8</p></blockquote><p>解决方法：</p><pre><code>sudo chown -R `whoami`:admin /usr/local/binsudo chown -R `whoami`:admin /usr/local/share</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具安装与使用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac OS安装brew和安装wget</title>
+      <link href="/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/"/>
+      <url>/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/</url>
+      
+        <content type="html"><![CDATA[<ul><li>查看brew的版本</li></ul><pre><code>brew --version</code></pre><ul><li>安装brew (brew: command not found)，可能需要科学上网，验证是否可以正常访问，否则无法安装brew</li></ul><pre><code>ruby -e"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></pre><p>异常情况：</p><p>如果报错：curl: (7) Failed to connect to raw.githubusercontent.com port 443: Operation timed out，应该是网络有问题，可能需要科学上网，可尝试访问<a href="https://raw.githubusercontent.com/Homebrew/install/master/install，如果可以正常打开，将网页保存为install_brew.rb。然后在终端输入ruby" target="_blank" rel="noopener">https://raw.githubusercontent.com/Homebrew/install/master/install，如果可以正常打开，将网页保存为install_brew.rb。然后在终端输入ruby</a> install_brew.rb，按回车输入密码，即可安装homebrew</p><p>Installation successful! 安装成功后，如果依然提示brew: command not found，向上查看有一个警告，Warning: /usr/local/bin is not in your PATH.</p><p>我们打开环境变量配置文件</p><pre><code>open ~/.bash_profile</code></pre><p>添加：export PATH=/usr/local/bin:$PATH并保存</p><p>更新配置后的环境变量：</p><pre><code>source ~/.bash_profile</code></pre><ul><li>安装wget (sudo: wget: command not found)</li></ul><pre><code>brew install wget</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工具安装与使用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题</title>
+      <link href="/2020/05/02/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/"/>
+      <url>/2020/05/02/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200502000952.png" alt=""></p><blockquote><h1 id="您的连接不是私密连接"><a href="#您的连接不是私密连接" class="headerlink" title="您的连接不是私密连接"></a>您的连接不是私密连接</h1><p>攻击者可能会试图从 <strong><a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a></strong> 窃取您的信息（例如：密码、通讯内容或信用卡信息）。<a href="chrome-error://chromewebdata/#">了解详情</a></p><p>NET::ERR_CERT_AUTHORITY_INVALID</p></blockquote><p>安装Charles后，Charles的证书未被信任导致的</p><p>打开钥匙串访问，修改Charles的证书为始终信任即可</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo博客等静态网页提交百度和Google谷歌收录</title>
       <link href="/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/"/>
       <url>/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/</url>

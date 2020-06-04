@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hansion.win/"/>
-  <updated>2020-04-14T10:30:26.864Z</updated>
+  <updated>2020-06-04T07:09:42.718Z</updated>
   <id>http://www.hansion.win/</id>
   
   <author>
@@ -17,11 +17,160 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>修改Android Studio的build-gradle默认模板</title>
+    <link href="http://www.hansion.win/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/"/>
+    <id>http://www.hansion.win/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/</id>
+    <published>2020-06-04T04:31:11.000Z</published>
+    <updated>2020-06-04T07:09:42.718Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;此处以Mac OS 为例&lt;/p&gt;
+&lt;p&gt;打开Finder，在左侧找到“应用程序” -&amp;gt; Android Studio -&amp;gt; 显示包内容&lt;/p&gt;
+&lt;p&gt;具体路径：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;/Applications/Android
+        
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Android" scheme="http://www.hansion.win/tags/Android/"/>
+    
+      <category term="锦上添花小技巧" scheme="http://www.hansion.win/tags/%E9%94%A6%E4%B8%8A%E6%B7%BB%E8%8A%B1%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac切换Python版本</title>
+    <link href="http://www.hansion.win/2020/06/04/mac-qie-huan-python-ban-ben/"/>
+    <id>http://www.hansion.win/2020/06/04/mac-qie-huan-python-ban-ben/</id>
+    <published>2020-06-04T04:18:20.000Z</published>
+    <updated>2020-06-04T07:21:53.576Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Mac默认自带Python,但版本较低，例如我本机自带的版本为2.7.16&lt;/p&gt;
+&lt;p&gt;但我想使用Python3，安装了Python3，怎么才能改成默认使用我们想要的版本呢？&lt;/p&gt;
+&lt;p&gt;此处以切换至Python3为例&lt;/p&gt;
+&lt;h3 id=&quot;获取路径&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://www.hansion.win/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="http://www.hansion.win/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac使用brew安装软件缺少权限的问题</title>
+    <link href="http://www.hansion.win/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/"/>
+    <id>http://www.hansion.win/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/</id>
+    <published>2020-06-04T04:11:10.000Z</published>
+    <updated>2020-06-04T07:13:46.162Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;错误信息如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Error: The following directories are not writable by your user:&lt;br&gt;/usr/local/share/man/man8&lt;/p&gt;
+&lt;p&gt;You
+        
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="工具安装与使用" scheme="http://www.hansion.win/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac OS安装brew和安装wget</title>
+    <link href="http://www.hansion.win/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/"/>
+    <id>http://www.hansion.win/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/</id>
+    <published>2020-06-04T04:07:11.000Z</published>
+    <updated>2020-06-04T07:09:30.362Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;查看brew的版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;brew --version&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;安装brew (brew: command not
+        
+      
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="工具安装与使用" scheme="http://www.hansion.win/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题</title>
+    <link href="http://www.hansion.win/2020/05/02/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/"/>
+    <id>http://www.hansion.win/2020/05/02/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</id>
+    <published>2020-05-01T16:12:34.000Z</published>
+    <updated>2020-05-01T16:12:34.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200502000952.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&quot;您的连接不是私密连接&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hexo博客等静态网页提交百度和Google谷歌收录</title>
     <link href="http://www.hansion.win/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/"/>
     <id>http://www.hansion.win/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/</id>
     <published>2020-04-13T12:18:01.000Z</published>
-    <updated>2020-04-14T10:30:26.864Z</updated>
+    <updated>2020-04-14T10:30:26.000Z</updated>
     
     <summary type="html">
     
@@ -50,7 +199,7 @@
     <link href="http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/"/>
     <id>http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/</id>
     <published>2020-04-13T11:38:55.000Z</published>
-    <updated>2020-04-15T05:17:16.416Z</updated>
+    <updated>2020-04-15T05:17:16.000Z</updated>
     
     <summary type="html">
     
@@ -78,7 +227,7 @@
     <link href="http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/"/>
     <id>http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/</id>
     <published>2020-04-13T04:29:52.000Z</published>
-    <updated>2020-04-14T10:20:47.268Z</updated>
+    <updated>2020-04-14T10:20:47.000Z</updated>
     
     <summary type="html">
     

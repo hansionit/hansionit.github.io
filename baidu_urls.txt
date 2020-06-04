@@ -1,3 +1,8 @@
+http://www.hansion.win/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/
+http://www.hansion.win/2020/06/04/mac-qie-huan-python-ban-ben/
+http://www.hansion.win/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/
+http://www.hansion.win/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/
+http://www.hansion.win/2020/05/02/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/
 http://www.hansion.win/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/
 http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/
 http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/
