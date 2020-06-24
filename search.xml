@@ -4,6 +4,83 @@
   
     
     <entry>
+      <title>Mac OS上搭建Flutter开发环境</title>
+      <link href="/2020/06/25/mac-os-shang-da-jian-flutter-kai-fa-huan-jing/"/>
+      <url>/2020/06/25/mac-os-shang-da-jian-flutter-kai-fa-huan-jing/</url>
+      
+        <content type="html"><![CDATA[<p>我们主要参考 <a href="https://flutterchina.club/get-started/install/" target="_blank" rel="noopener">Flutter中文网</a> 中的指导</p><h2 id="一、添加镜像"><a href="#一、添加镜像" class="headerlink" title="一、添加镜像"></a>一、添加镜像</h2><p>由于网络的原因，我们需要使用镜像进行下载，我们需要将下方的镜像配置到环境变量中</p><h3 id="配置镜像到环境变量"><a href="#配置镜像到环境变量" class="headerlink" title="配置镜像到环境变量"></a>配置镜像到环境变量</h3><h4 id="macOS-Catalina（10-15）及以上版本"><a href="#macOS-Catalina（10-15）及以上版本" class="headerlink" title="macOS Catalina（10.15）及以上版本"></a>macOS Catalina（10.15）及以上版本</h4><ul><li><p>在终端输入<code>open ~/.zshrc</code></p></li><li><p>如果 提示文件不存在，则执行：<code>vim ~/.zshrc</code>新建文件</p></li><li><p>将下方的镜像粘贴进入profile文件中</p></li><li><p>保存退出</p></li></ul><h4 id="macOS-Catalina（10-15）以下版本"><a href="#macOS-Catalina（10-15）以下版本" class="headerlink" title="macOS Catalina（10.15）以下版本"></a>macOS Catalina（10.15）以下版本</h4><ul><li>在终端中输入 <code>sudo vim /etc/profile</code></li><li>将下方的镜像粘贴进入profile文件中</li><li>在终端输入<code>source /etc/profile</code> 使环境变量生效</li></ul><h4 id="国内镜像"><a href="#国内镜像" class="headerlink" title="国内镜像"></a>国内镜像</h4><p>Flutter官方为中国开发者搭建了临时镜像：</p><pre><code>export PUB_HOSTED_URL=https://pub.flutter-io.cnexport FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn</code></pre><p>如果之后下载有问题，也可以重新配置环境变量，使用上海交通大学的镜像：</p><pre><code>export PUB_HOSTED_URL=https://dart-pub.mirrors.sjtug.sjtu.edu.cnexport FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn</code></pre><h2 id="二、获取Flutter-SDK"><a href="#二、获取Flutter-SDK" class="headerlink" title="二、获取Flutter SDK"></a>二、获取Flutter SDK</h2><p>在合适的位置创建一个文件夹，这里我选择~/flutterDir目录</p><p>在终端输入以下指令，进行clone:</p><pre><code>git clone -b stable https://github.com/flutter/flutter.git</code></pre><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624161138.png" alt=""></p><p>Clone完成后，配置Flutter SDK到环境变量,流程同配置镜像</p><pre><code>export PATH=~/flutterDir/flutter/bin:$PATH</code></pre><p>配置成功后，在终端输入 <code>flutter doctor</code> 对环境进行检测 ,第一次运行flutter命令时，会下载依赖并编译，所以时间比较长，需要耐心等待</p><p>检测结果如下：</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624161930.png" alt=""></p><h2 id="三、解决现存问题"><a href="#三、解决现存问题" class="headerlink" title="三、解决现存问题"></a>三、解决现存问题</h2><p>由于我使用AndroidStudio开发，所以在这里只解决掉与Android相关的问题即可</p><ol><li><p>首先解决<code>Android toolchain</code>的问题，根据提示根据提示输入 <code>flutter doctor --android-licenses</code>,然后一直回复y即可</p><p>然后再次输入<code>flutter doctor</code>，我们可以看到该问题已经解决</p></li><li><p>然后解决<code>Android Studio</code>的问题。问题描述说我的AndroidStudio没有安装Flutter插件和Dart插件，我们在AndroidStudio内，搜索安装Flutter插件即可，安装Flutter插件的同时也会将Dart安装上，我们无需再自行安装</p></li></ol><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162508.png" alt=""></p><p>如果由于网络原因AndroidStudio搜索插件失败，或者安装插件失败，可以进行如下设置（下图为AndroidStudio 4.0）：</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162718.png" alt=""></p><p>填入<code>https://plugins.jetbrains.com/</code></p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162809.png" alt=""></p><p>安装成功后，点击<code>Restart IDE</code>按钮重启AndroidStudio </p><p>然后再次输入<code>flutter doctor</code>，我们可以看到该问题已经解决</p><h2 id="四、安装完成，创建项目"><a href="#四、安装完成，创建项目" class="headerlink" title="四、安装完成，创建项目"></a>四、安装完成，创建项目</h2><p>接下来，我们就可以使用AndroidStudio创建一个Flutter项目，进行正常的开发了</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624163204.png" alt=""></p><p>这里选择我们之前clone的Flutter SDK的目录</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624163520.png" alt=""></p><p>如果最后一直卡在<code>creating flutter project</code>没有反应，则直接强行重启AndroidStudio，然后再open刚刚创建的项目即可。</p><h2 id="五、解决运行时出现的问题"><a href="#五、解决运行时出现的问题" class="headerlink" title="五、解决运行时出现的问题"></a>五、解决运行时出现的问题</h2><p>项目打开后，连上手机直接运行，检测是否有问题，可能遇到的问题如下：</p><ol><li><p>卡在<code>Running Gradle task 'assembleDebug'</code> 或者报错<code>Could not get resource 'xxxxxx'</code> 、<code>Could not find com.android.tools.build:gradle</code>等</p><p>解决：在项目配置文件中添加阿里云镜像</p><pre><code>maven { url 'https://maven.aliyun.com/repository/google/' }maven { url 'https://maven.aliyun.com/repository/jcenter/' }maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }</code></pre><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624171841.png" alt=""></p></li></ol><p>​        在Flutter配置中也添加阿里云镜像</p><p>​        该文件在<code>Flutter安装目录/packages/flutter_tools/gradle/flutter.gradle</code></p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624172440.png" alt=""></p><pre><code>需要注意的是,因为Flutter的升级是依赖git.所以在以后Flutter更新版本的时候,即使用 flutter upgrade 命令升级.会提示你在本地的修改还没提交,到时候需要还原这里的改动再升级</code></pre><ol start="2"><li><p>Waiting for another flutter command to release the startup lock. 或者运行时显示 <no device=""></no></p><p>解决方法：打开<code>Flutter安装目录/bin/cache</code> 目录,删除lockfile文件 重启AndroidStudio</p></li></ol><ol start="3"><li>项目中几乎所有代码都报错 main.dart一片红<br>解决方法： 将安卓SDK配置给flutter:flutter config –android-sdk &lt;你SDK的路径&gt;<br>如:flutter config –android-sdk /Users/hansion/Library/Android/sdk</li></ol><ol start="4"><li>安装应用时卡在  Installing build/app/outputs/apk/app.apk…<br>解决方法：重新插拔数据线,并且确认打开了usb调试并授权</li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Flutter </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Flutter </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac OS安装JDK与Tomcat</title>
+      <link href="/2020/06/13/mac-os-an-zhuang-jdk-yu-tomcat/"/>
+      <url>/2020/06/13/mac-os-an-zhuang-jdk-yu-tomcat/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Mac-OS安装JDK"><a href="#Mac-OS安装JDK" class="headerlink" title="Mac OS安装JDK"></a>Mac OS安装JDK</h3><p><a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener">JDK下载地址</a></p><p>找到自己需要的版本，进行点击<code>JDK Download</code></p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612140853.png" alt=""></p><p>找到<code>macOS Installer</code>对应的下载按钮，点击开始下载</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612141047.png" alt=""></p><p>下载完成后，运行安装即可</p><h3 id="Mac-OS安装Tomcat"><a href="#Mac-OS安装Tomcat" class="headerlink" title="Mac OS安装Tomcat"></a>Mac OS安装Tomcat</h3><p><a href="https://tomcat.apache.org/download-90.cgi" target="_blank" rel="noopener">Tomcat官方下载地址</a></p><p>点击<code>tar.gz</code>进行下载</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612151949.png" alt=""></p><p>下载完成后解压即可使用</p><p>为了使用方便，我将解压出的文件夹改名为Tomcat,移动到了Library目录（即下图的<code>资源库</code>目录）中</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152344.png" alt=""></p><p>打开终端，输入以下命令:</p><ol><li>进入bin目录</li></ol><pre><code>cd /Library/Tomcat/bin </code></pre><ol start="2"><li>修改权限</li></ol><pre><code>sudo chmod 755 *.sh</code></pre><p>输入密码</p><ol start="3"><li>启动Tomcat</li></ol><pre><code>sudo sh ./startup.sh</code></pre><p>启动成功后如下图所示：</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152719.png" alt=""></p><p>在浏览器输入<code>http://localhost:8080/</code>或者<code>http://127.0.0.1:8080/</code>即可打开Tomcat的默认主页</p><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152917.png" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Android内存调度机制</title>
+      <link href="/2020/06/13/android-nei-cun-diao-du-ji-zhi/"/>
+      <url>/2020/06/13/android-nei-cun-diao-du-ji-zhi/</url>
+      
+        <content type="html"><![CDATA[<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p><a href="https://blog.csdn.net/aaa1050070637/article/details/92792246" target="_blank" rel="noopener">Android dalvik虚拟机内部机制详解（2）____内存管理原理</a></p><p><a href="https://zhuanlan.zhihu.com/p/86265957" target="_blank" rel="noopener">由浅入深理解Android虚拟机—内存模型，垃圾回收机制是如何实现的？</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Android开发高级知识 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+            <tag> Android虚拟机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>修改Android Studio的build-gradle默认模板</title>
       <link href="/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/"/>
       <url>/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/</url>

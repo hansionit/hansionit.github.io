@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     
-        <meta name="keywords" content="Hexo,博客搭建,静态博客,">
+        <meta name="keywords" content="Java,Tomcat,">
     
     
         <meta name="description" content="Hansion博客，一个记录个人成长的地方。">
@@ -21,7 +21,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo搭建个人博客-Mac/Windows-Coding/Github/码云各种平台完全介绍 | 时光小屋</title>
+    <title>Mac OS安装JDK与Tomcat | 时光小屋</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/libs/awesome/css/all.css">
@@ -314,12 +314,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/blog_banner/0.jpeg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/blog_banner/1.jpeg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo搭建个人博客-Mac/Windows-Coding/Github/码云各种平台完全介绍</h1>
+                    <h1 class="description center-align post-title">Mac OS安装JDK与Tomcat</h1>
                 </div>
             </div>
         </div>
@@ -444,12 +444,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                <span class="chip bg-color">博客搭建</span>
-                            </a>
-                        
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
+                            <a href="/tags/Java/">
+                                <span class="chip bg-color">Java</span>
                             </a>
                         
                     </div>
@@ -460,8 +456,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                博客搭建
+                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
+                                工具
                             </a>
                         
                     </div>
@@ -473,28 +469,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-13
+                    2020-06-13
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-14
+                    2020-06-12
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.2k
+                    243
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    1 分
                 </div>
                 
 
@@ -509,89 +505,33 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h2><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>方法一：官网下载（新手推荐） <a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p>
-<p>下载成功后，运行<code>node-vXX.XX.XX.pkg</code>进行安装</p>
-<p>方法二：Mac，如果安装了brew,可通过命令安装<br><code>brew install nodejs</code><br>  如果brew很久没用了，使用上述命令时还可能会先升级brew,比较费时</p>
-<blockquote>
-<p>安装完成后，分别输入 <code>node -v</code> 和 <code>npm -v</code> 验证是否安装成功</p>
-</blockquote>
-<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><ul>
-<li><p>Windows：管理员身份启动终端，终端输入<code>npm install -g hexo</code> 开始安装</p>
-</li>
-<li><p>Mac：终端输入<code>sudo npm install -g hexo</code> 开始安装</p>
-</li>
-<li><p>进入到想要创建Hexo博客的文件夹，终端输入<code>hexo init xx</code>进行克隆(xx代表创建的目录名称，以下如同)，这样就会在当前目录下，创建一个xx目录，就是你的博客目录</p>
-</li>
-<li><p><code>cd xx</code>进入该目录，执行<code>npm install</code>安装node_modules依赖</p>
-</li>
-<li><p>执行<code>hexo server</code>进行本地测试，根据输出的地址，在浏览其中打开<code>http://localhost:4000</code>，若打开了Hexo的网页即代表成功，如果网页一直在等待中，可能是端口被占用了，通过以下命令更改端口即可<code>hexo server -p 5000</code></p>
-</li>
-<li><p><code>Ctrl + C</code> 关闭该服务</p>
-</li>
-</ul>
-<blockquote>
-<p>至此，环境已经搭建完成，接下来就要设置自己喜欢的网页主题了</p>
-</blockquote>
-<h2 id="配置网页主题"><a href="#配置网页主题" class="headerlink" title="配置网页主题"></a>配置网页主题</h2><h3 id="查找自己喜欢的主题"><a href="#查找自己喜欢的主题" class="headerlink" title="查找自己喜欢的主题"></a>查找自己喜欢的主题</h3><p> <a href="https://www.zhihu.com/question/24422335/answers/updated" target="_blank" rel="noopener">https://www.zhihu.com/question/24422335/answers/updated</a></p>
-<h3 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h3><ul>
-<li><p>选择好主题后，根据主题github上的说明进行下载安装，此处以<code>matery</code>主题为例</p>
-</li>
-<li><p><code>matery</code>主题的github说明地址为 <a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md</a></p>
-</li>
-<li><p>根据提示执行操作</p>
-</li>
-<li><p>进入themes目录 <code>cd themes</code></p>
-</li>
-<li><p>克隆主题 <code>git clone https://github.com/blinkfox/hexo-theme-matery.git</code></p>
-</li>
-</ul>
-<h3 id="设置主题"><a href="#设置主题" class="headerlink" title="设置主题"></a>设置主题</h3><p>修改 Hexo 根目录下的 _config.yml 的 theme 的值：theme: hexo-theme-matery</p>
-<h2 id="部署到码云或Coding或GitHub"><a href="#部署到码云或Coding或GitHub" class="headerlink" title="部署到码云或Coding或GitHub"></a>部署到码云或Coding或GitHub</h2><ul>
-<li>码云：免费用户不支持自定义域名和自动部署（新用户可免费试用1个月）；不支持CNAME配置；国内访问较快；支持私有仓库</li>
-<li>Coding：免费用户支持CNAME自定义域名和自动部署、私有仓库；需要实名认证；国内访问较慢，不稳定</li>
-<li>GitHub：免费用户支持CNAME自定义域名和自动部署；免费用户不支持私有仓库；国内访问较慢</li>
-</ul>
-<h3 id="在码云或Coding或GitHub新建项目"><a href="#在码云或Coding或GitHub新建项目" class="headerlink" title="在码云或Coding或GitHub新建项目"></a>在码云或Coding或GitHub新建项目</h3><p>修改 Hexo 根目录下的 _config.yml 的deploy,repository设置为你的仓库地址，这里我使用的HTTPS的方式，SSH的方式太复杂，就不使用了，想用SSH的同学查一下用法。</p>
-<pre><code>deploy:
-  type: git
-  repository: https://e.coding.net/hansion_it/Blog.git
-  branch: master</code></pre><h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><ul>
-<li>终端输入 <code>hexo g</code></li>
-<li>终端输入 <code>hexo d</code></li>
-<li>若报错<code>Deployer not found: git</code>，输入 <code>npm install hexo-deployer-git --save</code> </li>
-<li>安装成功后再输入<code>hexo g</code> 和 <code>hexo d</code></li>
-<li>过程中可能会要求输入码云或coding或者github的账号密码，按要求输入即可</li>
-</ul>
-<h3 id="绑定自定义域名"><a href="#绑定自定义域名" class="headerlink" title="绑定自定义域名"></a>绑定自定义域名</h3><ul>
-<li>GitHub和Coding采用CNAME的形式进行绑定</li>
-<li>码云在部署时选择自定义域名即可</li>
-</ul>
-<h3 id="线上测试"><a href="#线上测试" class="headerlink" title="线上测试"></a>线上测试</h3><ul>
-<li>在浏览器中打开git给你分配的域名或者你自定义的域名，查看是否打开成功，与本地测试时显示相同</li>
-<li>若使用的是码云，可能样式显示存在问题，需要修改Hexo 根目录下的 _config.yml中的url和root分别为你的域名和仓库名，例如：<pre><code>url: http://xxxxx.io
-root: /blog</code></pre></li>
-<li>DNS解析生效需要时间，同时注意浏览器缓存的影响</li>
-</ul>
-<h2 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h2><ul>
-<li>创建一个文章文件 <code>hexo new "你的文章名称"</code>，会在<code>/source/_posts/</code>目录下创建<code>你的文章名称.md</code>文件</li>
-<li>在该.md文件内书写文章内容，文件内已默认创建了文章属性,若想添加其他属性，可参考主题的使用文档，一般来说都通用，这里以matery主题为例：<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md#front-matter-%E9%80%89%E9%A1%B9%E8%AF%A6%E8%A7%A3" target="_blank" rel="noopener">https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md#front-matter-%E9%80%89%E9%A1%B9%E8%AF%A6%E8%A7%A3</a></li>
-<li>写完文章后，<code>hexo g</code>生成相关文件</li>
-<li><code>hexo s</code>本地预览一下，看看有没有问题</li>
-<li>没有问题，<code>hexo d</code>提交</li>
-</ul>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="Github-Pages自定义域名"><a href="#Github-Pages自定义域名" class="headerlink" title="Github Pages自定义域名"></a>Github Pages自定义域名</h3><ol>
-<li><p>打开域名管理控制台，此处以阿里云为例，增加解析，添加两条CNAME记录，对应ipages域名</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414104637.png" alt=""></p>
-</li>
-<li><p>在博客的<code>source</code>目录新建一个文件，名称为<code>CNAME</code>，里面写入要自定义的域名，如<code>www.hansion.win</code>，然后<code>hexo g</code>,<code>hexo d</code>生成部署一下</p>
-</li>
-<li><p>在Github pages设置中，填写自定义域名后保存。</p>
-</li>
+                <h3 id="Mac-OS安装JDK"><a href="#Mac-OS安装JDK" class="headerlink" title="Mac OS安装JDK"></a>Mac OS安装JDK</h3><p><a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener">JDK下载地址</a></p>
+<p>找到自己需要的版本，进行点击<code>JDK Download</code></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612140853.png" alt=""></p>
+<p>找到<code>macOS Installer</code>对应的下载按钮，点击开始下载</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612141047.png" alt=""></p>
+<p>下载完成后，运行安装即可</p>
+<h3 id="Mac-OS安装Tomcat"><a href="#Mac-OS安装Tomcat" class="headerlink" title="Mac OS安装Tomcat"></a>Mac OS安装Tomcat</h3><p><a href="https://tomcat.apache.org/download-90.cgi" target="_blank" rel="noopener">Tomcat官方下载地址</a></p>
+<p>点击<code>tar.gz</code>进行下载</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612151949.png" alt=""></p>
+<p>下载完成后解压即可使用</p>
+<p>为了使用方便，我将解压出的文件夹改名为Tomcat,移动到了Library目录（即下图的<code>资源库</code>目录）中</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152344.png" alt=""></p>
+<p>打开终端，输入以下命令:</p>
+<ol>
+<li>进入bin目录</li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414100644.png" alt=""></p>
-<ol start="4">
-<li>等待10分钟左右生效</li>
+<pre><code>cd /Library/Tomcat/bin </code></pre><ol start="2">
+<li>修改权限</li>
 </ol>
+<pre><code>sudo chmod 755 *.sh</code></pre><p>输入密码</p>
+<ol start="3">
+<li>启动Tomcat</li>
+</ol>
+<pre><code>sudo sh ./startup.sh</code></pre><p>启动成功后如下图所示：</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152719.png" alt=""></p>
+<p>在浏览器输入<code>http://localhost:8080/</code>或者<code>http://127.0.0.1:8080/</code>即可打开Tomcat的默认主页</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152917.png" alt=""></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -635,7 +575,7 @@ root: /blog</code></pre></li>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/">http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/</a>
+                    <a href="http://www.hansion.win/2020/06/13/mac-os-an-zhuang-jdk-yu-tomcat/">http://www.hansion.win/2020/06/13/mac-os-an-zhuang-jdk-yu-tomcat/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -673,12 +613,8 @@ root: /blog</code></pre></li>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                                    <span class="chip bg-color">博客搭建</span>
-                                </a>
-                            
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
+                                <a href="/tags/Java/">
+                                    <span class="chip bg-color">Java</span>
                                 </a>
                             
                         </div>
@@ -1113,30 +1049,30 @@ root: /blog</code></pre></li>
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/">
+                <a href="/2020/06/25/mac-os-shang-da-jian-flutter-kai-fa-huan-jing/">
                     <div class="card-image">
                         
-                        <img src="/medias/blog_banner/2.jpeg" class="responsive-img" alt="Git新建仓库提交代码">
+                        <img src="/medias/blog_banner/1.jpeg" class="responsive-img" alt="Mac OS上搭建Flutter开发环境">
                         
-                        <span class="card-title">Git新建仓库提交代码</span>
+                        <span class="card-title">Mac OS上搭建Flutter开发环境</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本文为很久之前得git笔记迁移过来，展示了git建仓库提交代码的方法与常见错误和解决方法
+                            手把手教你搭建，避免踩坑
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-13
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-25
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Git/" class="post-category">
-                                    Git
+                            <a href="/categories/Flutter/" class="post-category">
+                                    Flutter
                                 </a>
                             
                             
@@ -1146,8 +1082,8 @@ root: /blog</code></pre></li>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Git/">
-                        <span class="chip bg-color">Git</span>
+                    <a href="/tags/Flutter/">
+                        <span class="chip bg-color">Flutter</span>
                     </a>
                     
                 </div>
@@ -1158,49 +1094,48 @@ root: /blog</code></pre></li>
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/">
+                <a href="/2020/06/13/android-nei-cun-diao-du-ji-zhi/">
                     <div class="card-image">
                         
-                        <img src="/medias/blog_banner/0.jpeg" class="responsive-img" alt="Hexo搭建个人博客-Mac/Windows-Coding/Github/码云各种平台完全介绍">
+                        <img src="/medias/blog_banner/2.jpeg" class="responsive-img" alt="Android内存调度机制">
                         
-                        <span class="card-title">Hexo搭建个人博客-Mac/Windows-Coding/Github/码云各种平台完全介绍</span>
+                        <span class="card-title">Android内存调度机制</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本文从Mac和Windows两种平台讲解如何使用Hexo搭建个人博客
+                            了解Android内存调度机制对App内存优化有很大帮助
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-13
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                    博客搭建
+                            <a href="/categories/Android%E5%BC%80%E5%8F%91%E9%AB%98%E7%BA%A7%E7%9F%A5%E8%AF%86/" class="post-category">
+                                    Android开发高级知识
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
-                        <span class="chip bg-color">博客搭建</span>
+                    <a href="/tags/Android/">
+                        <span class="chip bg-color">Android</span>
                     </a>
                     
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
+                    <a href="/tags/Android%E8%99%9A%E6%8B%9F%E6%9C%BA/">
+                        <span class="chip bg-color">Android虚拟机</span>
                     </a>
                     
                 </div>
