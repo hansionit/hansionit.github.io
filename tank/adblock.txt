@@ -29087,6 +29087,7 @@ rayss.host
 3p8801.co
 401aww.com
 51gpiao.cn
+5951835ccc.com
 595tuchuang.com
 5r562.cn
 78dfvv.com
@@ -29094,6 +29095,7 @@ rayss.host
 81xs.xyz
 8499136.com
 8881img.com
+8961a.com
 8ccrv.xyz
 98dvu.fun
 9cgms.xyz
@@ -29133,6 +29135,7 @@ doublechen.online
 doubleclicks.biz
 dreanrh.cn
 dxgyl.xyz
+dxwyt3p.cn
 e5z14.icu
 e8jp9.com
 ebzqyow.cn
@@ -29143,6 +29146,7 @@ ewmvim.xyz
 fangyaomin.site
 fdbskb.cn
 fds-1230.cc
+fdtrjz.xyz
 felzfr.xyz
 ffdcpvv.cn
 forestwo1f.ltd
@@ -29230,6 +29234,7 @@ laafrce.cn
 laxnlqn.cn
 leiersuqd.com
 leiwo.xyz
+lgugsnp.cn
 liuye.club
 lmxzlb.xyz
 loispp.com
@@ -29251,6 +29256,7 @@ mmtcw.cn
 mohretsu.com
 monts.cyou
 moons.cyou
+mpymea.xyz
 mqquas.xyz
 mryshl.com
 mvbtp.xyz
@@ -29264,6 +29270,7 @@ njslx.cn
 noiea.xyz
 nonabh.xyz
 nouivjv.cn
+nqxvevk.cn
 nuyqiolnc.cyou
 nwrazu.cn
 nykoubk.cn
@@ -29297,10 +29304,12 @@ qwcqqw.xyz
 qwrot.cyou
 qycfqk.xyz
 qzeqjvo.cn
+rayss.host
 rdoybkd.cn
 rebunb.xyz
 renzhongjiaoyu.xyz
 rglctlo.cn
+rooby.cyou
 rtcegcp.cn
 ruyqiolnz.cyou
 rzlp.xyz
@@ -29374,6 +29383,7 @@ x3a88d.cn
 xbptvaq.cn
 xh33g.net
 xhjxkgc.cn
+xibpbov.cn
 xjpphoto.com
 xjpsrb.xyz
 xkhall.xyz
@@ -29419,13 +29429,6 @@ ztwrnpd.cn
 ztxstudy.club
 zunnnh.xyz
 zxtkfvm.cn
-lgugsnp.cn
-xibpbov.cn
-fdtrjz.xyz
-mpymea.xyz
-rooby.cyou
-nqxvevk.cn
-rayss.host
 001adafg.xyz
 0024aaaa.com
 004fsdljasd.xyz
@@ -36619,7 +36622,6 @@ ys2000.cdn.bcebos.com
 90oo.com/tp/hg
 90vs.com:3389/zs_img/.__
 90zy.cn/data/attachment/portal/
-918999.com/xjgg/
 91avv8.com/vU18BNDYo1ktVpge.js
 91danji.com/js/lmt.js
 91jbz.com/file/script/A
@@ -37555,7 +37557,6 @@ gg163.net/js/163bbsad.js
 gg163.net/js/gg163ad.js
 gg86.pinggu.org
 ggcode.2345.com
-ggg.zj.com
 ggs.myzaker.com
 ggtp-1255424916.cos.ap-chengdu.myqcloud.com
 ggw.gusuwang.com
@@ -37954,7 +37955,6 @@ jsdelivr.net/gh/cloud-files-cdn/jsfiles/lieqi.
 jsdelivr.net/gh/cloud-files/imgs/adamkoo-
 jsdelivr.net/gh/sex169hub/
 jsdelivr.net/gh/te89899/
-jsdelivr.net/gh/voocdn/static/www/QlZ2twef.js
 jsdelivr.net/gh/yaociyuan/
 json.cn/js/aliWindow.js
 jswz8.com/images/
@@ -39100,11 +39100,9 @@ z.nowscore.com
 zantj.com/diao
 zbjimg.com/static/union/
 zc173.com/173fee/
-zc173.com/pp/
 zcaijing.com/images/
 zdcj.net/html/weibo
 zdqx.com/statics/v1/images/gif/
-zfs.cn/8th/
 zhainanba.org/ac/
 zhanqi.tv/api/static/v2.1/actives.lists/
 zhengjie.com/a_d?
@@ -39144,7 +39142,6 @@ ztjal.info/wp-content/plugins/kill-adblock/
 ztyumn.ifeng.com
 zuiacg.com/images/client/
 zuofang05.com/template/mytheme/statics/image/1/
-zxip.com/2013_ad/
 zxzjtv.com/slade
 zxzjtv.com/t.js
 zzbaike.com/main/arvixe
