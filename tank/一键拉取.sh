@@ -1,2 +1,2 @@
 cd /Users/MySpace/MySpace/tankvideo/
-sudo git pull
+sudo git pull --rebase
