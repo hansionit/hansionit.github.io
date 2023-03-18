@@ -29726,6 +29726,10 @@ mjxtiht.cn
 jiangzhou.ltd
 ajcnz1.com
 ke4x.xyz
+clqrdxc.cn
+hlggimg.com
+whum.top
+handjob.tw/ad/
 121.204.246.13
 154.7.80.158
 194.59.220.161
@@ -30689,6 +30693,18 @@ zunnnh.xyz
 zxfas56.com
 zxtkfvm.cn
 zzxmcp.com
+neg.hk
+itpest.cn
+zopvjn.xyz
+gauqeo.xyz
+tfallview.live
+effetspositifs.com
+xwewwgk.cn
+jusheng.asia
+jusheng.icu
+yalayi.net
+klsnckalualkcn.com
+vj1p.xyz
 001adafg.xyz
 0024aaaa.com
 004fsdljasd.xyz
@@ -39190,6 +39206,7 @@ zzsky.com/images/a_d_
 zztongyun.com/static/js/sh.
 zzz4.com/JS_AD/
 zzzyk.com/js/
+tlxxw.cc/public/1/assets/js/custom/tt.
 117.60.146.16:8089/images/
 120.132.57.41/pjk/pag/
 12306.cn/otn/resources/images/pic/new-ad
@@ -40363,7 +40380,6 @@ gifshow.com/rest/wd/common/log/collect/acfun
 guahao.cn/common/js/plugins/fingerprint.js
 hao123img.com/resource/zt/widget/service/util/clickTrack.
 hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
-hdslb.com/bfs/seed/log/report/log-reporter.js
 highcharts.com.cn/highcharts/modules/heatmap.js
 hoy.tv/wp-content/themes/vodi-child/videojs-event-tracking.js
 img4399.com/static/huodong/daily/fpv2.js
