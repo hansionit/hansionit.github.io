@@ -30137,6 +30137,20 @@ szsbiw.xyz
 xni.ink
 pki.net.cn/public/1/assets/js/custom/tt.
 138txt.net/js/ssgdd.
+18so.vip
+ajucem.xyz
+aniqgsz.cc
+chnuuee.xyz
+evmnlpv.cn
+fssxyiq.cn
+fweia.xyz
+luckydino.ren
+piaochong.co
+pithjpf.cn
+txphjl.xyz
+xckyqq.com
+xiaochen1.cn
+bcong.top/static/ad/main.js
 154.7.80.158
 194.59.220.161
 23.234.217.11
@@ -30147,6 +30161,7 @@ pki.net.cn/public/1/assets/js/custom/tt.
 230579.top
 39nw.com
 52qd.club
+7067.top
 7xwx.cn
 8b4v.cn
 92ph.cn
@@ -30157,6 +30172,8 @@ aaaaa663.com
 aaaaa699.com
 aaaaa855.com
 aamv.vip
+adbtwyxl96.fun
+agwdac.xyz
 aircraft-fapi.club
 ajucem.xyz
 akdhiahcjojdkck.com
@@ -30179,6 +30196,7 @@ cbhwekr.cn
 ccohayo.xyz
 cdcc3.com
 cdfda.xyz
+cennv.cn
 chaozhunbb.xyz
 chnuuee.xyz
 ck33.top
@@ -30211,9 +30229,11 @@ flpnnqe.xyz
 flyinsky2009.ltd
 fnnzr.cn
 fssxyiq.cn
+fthqzxq.cn
 fvzljv.xyz
 fweia.xyz
 fzcsd33.com
+giold.xyz
 gpqicw.xyz
 gwvzgjb.cn
 gzexsc.top
@@ -30231,6 +30251,7 @@ huaweinnd.top
 hxes.cn
 hxpmbb.xyz
 hxtiojs.cn
+hzoijcm.cn
 icesfeathers.fun
 iepda.xyz
 ijnuhb.top
@@ -30263,6 +30284,7 @@ lnnjnv.xyz
 luckydino.ren
 lwtqqq.com
 lxbbs.fun
+mfifsux.xyz
 mhegew.xyz
 mindopu.com
 moend.xyz
@@ -30292,11 +30314,13 @@ pqxyqq.com
 prlioxb.cn
 prtlth.xyz
 qatuaad.cn
+qfdtqq.com
 qingdou.ltd
 qiwjiy.xyz
 qpoiwnelc.com
 qqied.xyz
 qwrdj.xyz
+ra1.xyz
 rcxysoj.cn
 readme.red
 reffnik.cn
@@ -30305,8 +30329,10 @@ rtdxqq.com
 rtjmln.xyz
 scrvw3.com
 sh6ss7.top
+shangyuan.ltd
 sisjwol.xyz
 sjalipa.cn
+skluff.com
 smailes.pro
 sozrrkx.xyz
 szsbiw.xyz
@@ -30315,6 +30341,7 @@ tfonlyuse.shop
 tianma704.ltd
 tmochyf.cn
 tqdpqq.com
+turifb.xyz
 txphjl.xyz
 ubifyc.xyz
 uqelxct.cn
@@ -30327,6 +30354,7 @@ vnlqcod.cn
 vorluic.cn
 vujhaib.cn
 vzfizr.xyz
+w4jz.top
 wangjc.ltd
 wangjiayi.fun
 wangyq.ltd
@@ -36724,7 +36752,6 @@ zgm1.com
 775mz.com/js/jquery.js
 77ds.vip/js/shichuang.js
 77vcd.com/js/
-77xn11.net/js/
 78dm.net/channel/test?
 78land.com/js/fumeiti.js
 797sun.com/include/js/common_footer.
@@ -39377,7 +39404,6 @@ baidu-taobao-av.com/js/home.js
 baidu-taobao-av.com/js/jquery.
 banma.com/statics/js/??
 bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
-bcong.top/static/ad/main.js
 bdimg.com/static/wkcore/widget/adControl/adControl_
 bdstatic.com/static/common/widget/ui/admanager/
 beanfun.com/ADClient/
@@ -39390,7 +39416,6 @@ china.com/dianbo/adv1.xml
 chinacourt.gov.cn/share/jquery/plugins/adbox/
 chinatimes.com/css-main/ad.css
 chtoen.com/js/adsbygoogle.js
-cl9a.com/static/ad/main.js
 cmbchina.com/ads/
 cnr.cn/gg/
 cnsexy.top/wp-content/plugins/dh-anti-adblocker/assets/js/showads.js
