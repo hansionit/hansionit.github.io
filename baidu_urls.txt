@@ -13,4 +13,4 @@ http://www.hansion.win/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/
 http://www.hansion.win/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/
 http://www.hansion.win/2020/04/13/git-cao-zuo-bao-cuo/
 http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/
-http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/
+http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/
