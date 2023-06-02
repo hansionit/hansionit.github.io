@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>07.沟通管理</title>
+      <link href="/2023/06/02/07.gou-tong-guan-li/"/>
+      <url>/2023/06/02/07.gou-tong-guan-li/</url>
+      
+        <content type="html"><![CDATA[<h6 id="一、项目沟通管理的过程"><a href="#一、项目沟通管理的过程" class="headerlink" title="一、项目沟通管理的过程"></a>一、项目沟通管理的过程</h6><ol><li>制定沟通管理计划</li><li>管理沟通</li><li>控制沟通</li></ol><h6 id="二、制定沟通管理计划的输入、输出、工具和技术"><a href="#二、制定沟通管理计划的输入、输出、工具和技术" class="headerlink" title="二、制定沟通管理计划的输入、输出、工具和技术"></a>二、制定沟通管理计划的输入、输出、工具和技术</h6><p>输入：</p><ul><li>项目管理计划</li><li>干系人登记册</li><li>事业环境因素</li><li>组织过程资产</li></ul><p>工具和技术</p><ul><li>分析沟通需求</li><li>沟通技术</li><li>沟通模型</li><li>沟通方法</li><li>会议</li></ul><p>输出：</p><ul><li>项目沟通管理计划</li><li>项目文件更新</li></ul><h6 id="三、管理沟通的输入、输出、工具和技术"><a href="#三、管理沟通的输入、输出、工具和技术" class="headerlink" title="三、管理沟通的输入、输出、工具和技术"></a>三、管理沟通的输入、输出、工具和技术</h6><p>输入：</p><ul><li>项目沟通管理计划</li><li>工作绩效报告</li><li>事业环境因素</li><li>组织过程资产</li></ul><p>工具和技术：</p><ul><li>沟通技术</li><li>沟通模型</li><li>沟通方法</li><li>信息管理系统</li><li>绩效报告</li></ul><p>输出：</p><ul><li>项目沟通</li><li>项目管理计划更新</li><li>项目文件更新</li><li>组织过程资产更新</li></ul><h6 id="四、控制沟通的输入、输出、工具和技术"><a href="#四、控制沟通的输入、输出、工具和技术" class="headerlink" title="四、控制沟通的输入、输出、工具和技术"></a>四、控制沟通的输入、输出、工具和技术</h6><p>输入：</p><ul><li>项目管理计划</li><li>项目沟通</li><li>问题日志</li><li>工作绩效数据</li><li>组织过程资产</li></ul><p>工具和技术：</p><ul><li>信息管理系统</li><li>专家判断</li><li>会议</li></ul><p>输出：</p><ul><li>工作绩效信息</li><li>变更请求</li><li>项目管理计划更新</li><li>其他项目文件更新</li><li>组织过程资产更新</li></ul><h6 id="五、沟通的方式"><a href="#五、沟通的方式" class="headerlink" title="五、沟通的方式"></a>五、沟通的方式</h6><p>控制程度由弱到强/参与程度由强到弱：</p><ol><li>参与讨论方式</li><li>征询方式</li><li>推销方式（说明）</li><li>叙述方式</li></ol><h6 id="六、沟通的方法"><a href="#六、沟通的方法" class="headerlink" title="六、沟通的方法"></a>六、沟通的方法</h6><ul><li>交互式沟通。在两房或多方之间进行多向信息交换，包括会议、电话、即时通信、视频会议等</li><li>推式沟通。把信息发送给需要接受这些信息的特定接收方，这种方法可以确保信息的发送，但不确保信息送达受众或被目标受众理解。包括：信件、备忘录、报告、电子邮件、传真、语音邮件、日志、新闻稿等。</li><li>拉式沟通。用于信息量很大祸首中很多的情况，要求接收着自主、自行地访问信息内容。包括企业内网、电子在线课程、经验教训数据库、知识库等。</li></ul><h6 id="七、潜在的沟通渠道数量计算公式"><a href="#七、潜在的沟通渠道数量计算公式" class="headerlink" title="七、潜在的沟通渠道数量计算公式"></a>七、潜在的沟通渠道数量计算公式</h6><p>![image-20230420131506866](/Users/hansion/Library/Application Support/typora-user-images/image-20230420131506866.png)</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题</title>
       <link href="/2023/03/14/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/"/>
       <url>/2023/03/14/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</url>

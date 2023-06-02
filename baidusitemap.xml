@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.hansion.win/2023/06/02/07.gou-tong-guan-li/</loc>
+    <lastmod>2023-06-02</lastmod>
+  </url>  <url>
+    <loc>http://www.hansion.win/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/</loc>
+    <lastmod>2023-03-14</lastmod>
+  </url>  <url>
     <loc>http://www.hansion.win/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/</loc>
     <lastmod>2023-03-14</lastmod>
   </url>  <url>
@@ -8,9 +14,6 @@
     <lastmod>2023-03-14</lastmod>
   </url>  <url>
     <loc>http://www.hansion.win/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/</loc>
-    <lastmod>2023-03-14</lastmod>
-  </url>  <url>
-    <loc>http://www.hansion.win/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/</loc>
     <lastmod>2023-03-14</lastmod>
   </url>  <url>
     <loc>http://www.hansion.win/2020/04/13/git-cao-zuo-bao-cuo/</loc>
@@ -34,10 +37,10 @@
     <loc>http://www.hansion.win/2020/06/13/android-nei-cun-diao-du-ji-zhi/</loc>
     <lastmod>2023-03-14</lastmod>
   </url>  <url>
-    <loc>http://www.hansion.win/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/</loc>
+    <loc>http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/</loc>
     <lastmod>2023-03-14</lastmod>
   </url>  <url>
-    <loc>http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/</loc>
+    <loc>http://www.hansion.win/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/</loc>
     <lastmod>2023-03-14</lastmod>
   </url>  <url>
     <loc>http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-coding-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/</loc>
