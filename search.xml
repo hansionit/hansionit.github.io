@@ -5,8 +5,8 @@
     
     <entry>
       <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题</title>
-      <link href="/2023/03/14/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/"/>
-      <url>/2023/03/14/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</url>
+      <link href="/2023/06/02/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/"/>
+      <url>/2023/06/02/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</url>
       
         <content type="html"><![CDATA[<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200502000952.png" alt=""></p><blockquote><h1 id="您的连接不是私密连接"><a href="#您的连接不是私密连接" class="headerlink" title="您的连接不是私密连接"></a>您的连接不是私密连接</h1><p>攻击者可能会试图从 <strong><a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a></strong> 窃取您的信息（例如：密码、通讯内容或信用卡信息）。<a href="chrome-error://chromewebdata/#">了解详情</a></p><p>NET::ERR_CERT_AUTHORITY_INVALID</p></blockquote><p>安装Charles后，Charles的证书未被信任导致的</p><p>打开钥匙串访问，修改Charles的证书为始终信任即可</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
