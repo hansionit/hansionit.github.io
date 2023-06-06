@@ -473,4 +473,34 @@
     
   </entry>
   
+  <entry>
+    <title>LruCache</title>
+    <link href="http://www.hansion.win/2015/06/13/lrucache/"/>
+    <id>http://www.hansion.win/2015/06/13/lrucache/</id>
+    <published>2015-06-13T05:13:33.000Z</published>
+    <updated>2023-06-06T08:25:06.640Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;LRU（Least Recently
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Android面试" scheme="http://www.hansion.win/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="Android" scheme="http://www.hansion.win/tags/Android/"/>
+    
+      <category term="面试" scheme="http://www.hansion.win/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
 </feed>
