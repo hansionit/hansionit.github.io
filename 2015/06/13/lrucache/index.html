@@ -487,7 +487,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    395
+                    467
                 </div>
                 
 
@@ -511,9 +511,7 @@
             <div id="articleContent">
                 <blockquote>
 <p>LRU（Least Recently Used）最近最少使用，选择最近最少使用的元素进行淘汰的算法</p>
-</blockquote>
-<blockquote>
-<p>基于LinkedHashMap进行存储与顺序维护，</p>
+<p> 基于LinkedHashMap进行存储与顺序维护</p>
 </blockquote>
 <p>LinkedHashMap的构造方法中，accessOrder参数传入true，代表按访问顺序排序，每次获取元素，会将该元素放在链表末尾；传入false代表按插入顺序排序，不受获取元素的影响。</p>
 <p>LRU借助了LinkedHashMap的使用顺序排序的特性，每次访问时，会将元素放到链表末尾，当存储的size达到限制时，就直接从链表头部移除元素（<strong>trimToSize方法</strong>），直到size在限制之内。</p>
@@ -527,6 +525,10 @@
 <blockquote>
 <p> 使用LRU时，一般要继承LRU类，重写sizeOf方法，返回元素对应的大小，用于计算占用</p>
 </blockquote>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>LruCache借助了LinkedHashMap可根据访问顺序排序的特性，完成自身的实现</li>
+<li>LruCache的总体逻辑是每次访问元素时，将元素放置在链表末尾，当Size不足时，则从链表头部依次删除元素，直到有空余Size</li>
+</ul>
 <hr>
 <h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><p><a href="https://www.jianshu.com/p/b49a111147ee" target="_blank" rel="noopener">彻底解析Android缓存机制——LruCache</a></p>
 <p><a href="https://blog.csdn.net/m0_73088370/article/details/126625529" target="_blank" rel="noopener">LinkedHashMap深度解析</a></p>
@@ -1295,14 +1297,14 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
     <div class="container row center-align" style="margin-bottom: 0px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
-            <span id="year">2020</span>
+            <span id="year">2023</span>
             <a href="http://www.hansion.win" target="_blank">Hansion</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.3k</span>&nbsp;字
+                class="white-color">8.4k</span>&nbsp;字
             
             
             
