@@ -34,7 +34,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<meta name="generator" content="Hexo 6.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 
@@ -476,21 +478,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-02
+                    2023-06-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    522
+                    470
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
 
@@ -509,98 +511,84 @@
 <h2 id="创建Servlet项目"><a href="#创建Servlet项目" class="headerlink" title="创建Servlet项目"></a>创建Servlet项目</h2><ol>
 <li>首先新建一个项目，选择Java Enterprise选项中的Web Application</li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717143452.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717143452.png"></p>
 <ol start="2">
 <li>填写项目的名字与路径</li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717143554.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717143554.png"></p>
 <ol start="3">
 <li>在src目录上右键 选择 new -&gt; create new servlet</li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717143706.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717143706.png"></p>
 <ol start="4">
 <li>设置Servlet的类名和包名，点击OK按钮后，会自动创建相应的包和类文件</li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717143815.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717143815.png"></p>
 <ol start="5">
 <li><p>在web.xml中配置servlet的相关信息</p>
 <p>url-pattern的匹配规则如下：</p>
-<p>​    使用‘/’开头，使用‘/’结尾，表示使用路径匹配，比如/foo/bar/*</p>
-<p>​    使用’*.xxx’表示使用后缀匹配；</p>
-<p>​    只使用‘/*’，表示匹配所有的请求；</p>
-<p>​    只使用’/‘，表示是一个默认的Servlet；</p>
-<p>​    除此之外，其他的字符都是准确匹配；</p>
-<p>​    具体可查看<a href="https://blog.csdn.net/wanhongbo029/article/details/85612152" target="_blank" rel="noopener">Servlet配置中servlet-mapping的配置问题</a></p>
+<p>​	使用‘/’开头，使用‘/’结尾，表示使用路径匹配，比如/foo/bar/*</p>
+<p>​	使用’*.xxx’表示使用后缀匹配；</p>
+<p>​	只使用‘/*’，表示匹配所有的请求；</p>
+<p>​	只使用’/‘，表示是一个默认的Servlet；</p>
+<p>​	除此之外，其他的字符都是准确匹配；</p>
+<p>​	具体可查看<a target="_blank" rel="noopener" href="https://blog.csdn.net/wanhongbo029/article/details/85612152">Servlet配置中servlet-mapping的配置问题</a></p>
 <p>此处以准确匹配/login为例</p>
 </li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717145526.png" alt=""></p>
-<pre><code>         &lt;servlet&gt;
-        &lt;servlet-name&gt;ServletTest&lt;/servlet-name&gt;
-        &lt;servlet-class&gt;com.hansion.ServletTest&lt;/servlet-class&gt;
-    &lt;/servlet&gt;
-    &lt;servlet-mapping&gt;
-        &lt;servlet-name&gt;ServletTest&lt;/servlet-name&gt;
-        &lt;url-pattern&gt;/login&lt;/url-pattern&gt;
-    &lt;/servlet-mapping&gt;</code></pre><h2 id="配置Tomcat"><a href="#配置Tomcat" class="headerlink" title="配置Tomcat"></a>配置Tomcat</h2><ol>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717145526.png"></p>
+<pre class="line-numbers language-none"><code class="language-none">&lt;servlet&gt;
+     &lt;servlet-name&gt;ServletTest&lt;/servlet-name&gt;
+     &lt;servlet-class&gt;com.hansion.ServletTest&lt;/servlet-class&gt;
+ &lt;/servlet&gt;
+ &lt;servlet-mapping&gt;
+     &lt;servlet-name&gt;ServletTest&lt;/servlet-name&gt;
+     &lt;url-pattern&gt;/login&lt;/url-pattern&gt;
+ &lt;/servlet-mapping&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h2 id="配置Tomcat"><a href="#配置Tomcat" class="headerlink" title="配置Tomcat"></a>配置Tomcat</h2><ol>
 <li>点击上方<code>Run</code>-&gt;<code>Edit Configurations...</code></li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144134.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144134.png"></p>
 <ol start="2">
 <li><p>点击左上角加号，选择<code>Tomcat Server</code> -&gt; <code>local</code></p>
 <p>点击右侧<code>Configure...</code>按钮选择本机安装Tomcat的路径后点击确定</p>
 <p>可以根据自己的需要更改<code>HTTP port</code>和<code>AJP port</code></p>
 </li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144357.png" alt=""></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144446.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144357.png"></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144446.png"></p>
 <ol start="3">
 <li>在项目上右键，点击<code>Open Module Settings</code></li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144632.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144632.png"></p>
 <ol start="4">
 <li>在<code>Modules</code>中点击加号，选择<code>Library...</code></li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144734.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144734.png"></p>
 <ol start="5">
 <li>选择指定的Tomcat后，点击<code>Add Selected</code>按钮添加</li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144802.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144802.png"></p>
 <ol start="6">
 <li>勾选刚才添加的library</li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144826.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717144826.png"></p>
 <ol start="7">
 <li><p>点击上方<code>Run</code>-&gt;<code>Edit Configurations...</code> 进入<code>Deployment</code>选项卡，查看下方<code>Application context</code>的值</p>
 <p>如果找不到<code>Application context</code>，附近应该有个<code>fix</code>按钮，点击即可显示</p>
 </li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717150806.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200717150806.png"></p>
 <ol start="8">
 <li><p>点击绿三角按钮运行，默认会自动打开浏览器访问<a href="http://localhost:xxxx/">http://localhost:xxxx/</a></p>
-<p>需要加上<code>Application context</code>和想要访问的<code>url-pattern</code>，如：<a href="http://localhost:9898/MyServletTest_war_exploded/login" target="_blank" rel="noopener">http://localhost:9898/MyServletTest_war_exploded/login</a></p>
+<p>需要加上<code>Application context</code>和想要访问的<code>url-pattern</code>，如：<a target="_blank" rel="noopener" href="http://localhost:9898/MyServletTest_war_exploded/login">http://localhost:9898/MyServletTest_war_exploded/login</a></p>
 <p>此时会调用<code>doGet</code>方法可以增加输出代码验证</p>
-<pre><code>System.out.println("doGet");</code></pre></li>
+<pre class="line-numbers language-none"><code class="language-none">System.out.println("doGet");<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+
             </div>
             <hr/>
 
@@ -1099,13 +1087,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2023/06/05/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/">
+                <a href="/2023/06/07/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/medias/featureimages/20.jpg" class="responsive-img" alt="解决Mac系统浏览网页提示“您的连接不是私密连接”问题">
+                        <img src="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">解决Mac系统浏览网页提示“您的连接不是私密连接”问题</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1121,7 +1109,7 @@ NET::ERR_CERT_AUTHORITY_INVALID
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-06-05
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-06-07
                         </span>
                         <span class="publish-author">
                             
@@ -1330,7 +1318,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.4k</span>&nbsp;字
+                class="white-color">7.5k</span>&nbsp;字
             
             
             

@@ -34,7 +34,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<meta name="generator" content="Hexo 6.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 
@@ -476,14 +478,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-02
+                    2023-06-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    381
+                    329
                 </div>
                 
 
@@ -505,71 +507,67 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Mac-OS安装JDK"><a href="#Mac-OS安装JDK" class="headerlink" title="Mac OS安装JDK"></a>Mac OS安装JDK</h3><p><a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank" rel="noopener">JDK下载地址</a></p>
+                <h3 id="Mac-OS安装JDK"><a href="#Mac-OS安装JDK" class="headerlink" title="Mac OS安装JDK"></a>Mac OS安装JDK</h3><p><a target="_blank" rel="noopener" href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK下载地址</a></p>
 <p>找到自己需要的版本，进行点击<code>JDK Download</code></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612140853.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612140853.png"></p>
 <p>找到<code>macOS Installer</code>对应的下载按钮，点击开始下载</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612141047.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612141047.png"></p>
 <p>下载完成后，运行安装即可</p>
-<h3 id="Mac-OS安装Tomcat"><a href="#Mac-OS安装Tomcat" class="headerlink" title="Mac OS安装Tomcat"></a>Mac OS安装Tomcat</h3><p><a href="https://tomcat.apache.org/download-90.cgi" target="_blank" rel="noopener">Tomcat官方下载地址</a></p>
+<h3 id="Mac-OS安装Tomcat"><a href="#Mac-OS安装Tomcat" class="headerlink" title="Mac OS安装Tomcat"></a>Mac OS安装Tomcat</h3><p><a target="_blank" rel="noopener" href="https://tomcat.apache.org/download-90.cgi">Tomcat官方下载地址</a></p>
 <p>点击<code>tar.gz</code>进行下载</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612151949.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612151949.png"></p>
 <p>下载完成后解压即可使用</p>
 <p>为了使用方便，我将解压出的文件夹改名为Tomcat,移动到了Library目录（即下图的<code>资源库</code>目录）中</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152344.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152344.png"></p>
 <p>打开终端，输入以下命令:</p>
 <ol>
 <li>进入bin目录</li>
 </ol>
-<pre><code>cd /Library/Tomcat/bin </code></pre><ol start="2">
+<pre class="line-numbers language-none"><code class="language-none">cd /Library/Tomcat/bin <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+
+<ol start="2">
 <li>修改权限</li>
 </ol>
-<pre><code>sudo chmod 755 *.sh</code></pre><p>输入密码</p>
+<pre class="line-numbers language-none"><code class="language-none">sudo chmod 755 *.sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>输入密码</p>
 <ol start="3">
 <li>启动Tomcat</li>
 </ol>
-<pre><code>sudo sh ./startup.sh</code></pre><p>启动成功后如下图所示：</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152719.png" alt=""></p>
+<pre class="line-numbers language-none"><code class="language-none">sudo sh ./startup.sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+
+<p>启动成功后如下图所示：</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152719.png"></p>
 <p>在浏览器输入<code>http://localhost:8080/</code>或者<code>http://127.0.0.1:8080/</code>即可打开Tomcat的默认主页</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152917.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200612152917.png"></p>
 <h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><h4 id="将Tomcat配置到环境变量"><a href="#将Tomcat配置到环境变量" class="headerlink" title="将Tomcat配置到环境变量"></a>将Tomcat配置到环境变量</h4><ul>
 <li><p>在终端输入<code>open ~/.zshrc</code></p>
 </li>
 <li><p>如果 提示文件不存在，则执行：<code>vim ~/.zshrc</code>新建文件</p>
 </li>
 <li><p>将Tomcat的安装路径粘贴进入</p>
-<pre><code>export PATH=$PATH:/Library/Tomcat/bin</code></pre></li>
+<pre class="line-numbers language-none"><code class="language-none">export PATH=$PATH:/Library/Tomcat/bin<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
 <li><p>保存退出</p>
 </li>
 </ul>
 <h4 id="修改默认访问根目录"><a href="#修改默认访问根目录" class="headerlink" title="修改默认访问根目录"></a>修改默认访问根目录</h4><ol>
 <li><p>打开<code>Tomcat安装目录/conf/server.xml</code>,如我的：</p>
-<pre><code>/Library/Tomcat/conf/server.xml</code></pre></li>
+<pre class="line-numbers language-none"><code class="language-none">/Library/Tomcat/conf/server.xml<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
 <li><p>找到<code>Host</code>节点，添加如下内容</p>
-<pre><code>&lt;Context path="" docBase="/Users/MySpace/MyWebServer" debug="0" reloadable="true" /&gt; </code></pre><p><code>docBase</code>为访问目录，可以绝对路径也可以相对路径，上述例子为绝对路径</p>
+<pre class="line-numbers language-none"><code class="language-none">&lt;Context path="" docBase="/Users/MySpace/MyWebServer" debug="0" reloadable="true" /&gt; <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><code>docBase</code>为访问目录，可以绝对路径也可以相对路径，上述例子为绝对路径</p>
 </li>
 <li><p>重启Tomcat</p>
 </li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+
             </div>
             <hr/>
 
@@ -1309,7 +1307,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.4k</span>&nbsp;字
+                class="white-color">7.5k</span>&nbsp;字
             
             
             

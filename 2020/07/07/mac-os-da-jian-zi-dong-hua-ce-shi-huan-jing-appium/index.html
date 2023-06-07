@@ -34,7 +34,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<meta name="generator" content="Hexo 6.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 
@@ -476,14 +478,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-02
+                    2023-06-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    619
+                    556
                 </div>
                 
 
@@ -505,56 +507,66 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>方法一：官网下载（新手推荐） <a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p>
+                <h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>方法一：官网下载（新手推荐） <a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
 <p>下载成功后，运行<code>node-vXX.XX.XX.pkg</code>进行安装</p>
 <p>方法二：Mac，如果安装了brew,可通过命令安装<br><code>brew install nodejs</code><br>  如果brew很久没用了，使用上述命令时还可能会先升级brew,比较费时</p>
 <blockquote>
 <p>安装完成后，分别输入 <code>node -v</code> 和 <code>npm -v</code> 验证是否安装成功</p>
 </blockquote>
-<h3 id="安装Appium"><a href="#安装Appium" class="headerlink" title="安装Appium"></a>安装Appium</h3><p>安装桌面版<a href="https://github.com/appium/appium-desktop/releases" target="_blank" rel="noopener">Github</a>，本文以桌面版为主，此时最新的release版本为<a href="https://download.fastgit.org/appium/appium-desktop/releases/download/v1.17.1-1/Appium-mac-1.17.1-1.dmg" target="_blank" rel="noopener">v1.17.1-1</a>,最新的beta版本为<a href="https://download.fastgit.org/appium/appium-desktop/releases/download/v1.18.0-beta.0/Appium-mac-1.18.0-beta.0.dmg" target="_blank" rel="noopener">1.18.0-beta.0</a>,此处我下载的为beta版本，因为release版本在安卓高版本真机进行使用时会报错<code>Security exception: Permission denial: writing to settings</code>，无法使用，详见<a href="https://github.com/appium/appium-desktop/issues/1265" target="_blank" rel="noopener">https://github.com/appium/appium-desktop/issues/1265</a></p>
-<pre><code>npm install -g appium</code></pre><p>如果连接超时，可设置淘宝镜像后再次尝试</p>
-<pre><code>npm config set registry https://registry.npm.taobao.org</code></pre><h3 id="检测环境是否满足"><a href="#检测环境是否满足" class="headerlink" title="检测环境是否满足"></a>检测环境是否满足</h3><p>1.安装appium-doctor</p>
-<pre><code>npm install -g appium-doctor</code></pre><p>2.使用<code>appium-doctor --ios</code>校验ios环境，使用<code>appium-doctor --android</code>校验安卓环境</p>
+<h3 id="安装Appium"><a href="#安装Appium" class="headerlink" title="安装Appium"></a>安装Appium</h3><p>安装桌面版<a target="_blank" rel="noopener" href="https://github.com/appium/appium-desktop/releases">Github</a>，本文以桌面版为主，此时最新的release版本为<a target="_blank" rel="noopener" href="https://download.fastgit.org/appium/appium-desktop/releases/download/v1.17.1-1/Appium-mac-1.17.1-1.dmg">v1.17.1-1</a>,最新的beta版本为<a target="_blank" rel="noopener" href="https://download.fastgit.org/appium/appium-desktop/releases/download/v1.18.0-beta.0/Appium-mac-1.18.0-beta.0.dmg">1.18.0-beta.0</a>,此处我下载的为beta版本，因为release版本在安卓高版本真机进行使用时会报错<code>Security exception: Permission denial: writing to settings</code>，无法使用，详见<a target="_blank" rel="noopener" href="https://github.com/appium/appium-desktop/issues/1265">https://github.com/appium/appium-desktop/issues/1265</a></p>
+<pre class="line-numbers language-none"><code class="language-none">npm install -g appium<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>如果连接超时，可设置淘宝镜像后再次尝试</p>
+<pre class="line-numbers language-none"><code class="language-none">npm config set registry https://registry.npm.taobao.org<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+
+<h3 id="检测环境是否满足"><a href="#检测环境是否满足" class="headerlink" title="检测环境是否满足"></a>检测环境是否满足</h3><p>1.安装appium-doctor</p>
+<pre class="line-numbers language-none"><code class="language-none">npm install -g appium-doctor<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>2.使用<code>appium-doctor --ios</code>校验ios环境，使用<code>appium-doctor --android</code>校验安卓环境</p>
 <p>本文主讲安卓环境，可能需要进行的配置：</p>
 <ol>
 <li><p>配置JAVA_HOME和ANDROID_HOME</p>
 <p>终端输入<code>/usr/libexec/java_home -V</code>，可查看JDK安装路径</p>
 <p>在AndroidStudio中，可查看Android SDK安装路径</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200708104454.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200708104454.png"></p>
 <p>输入<code>open ~/.zshrc</code>,增加如下配置，其中具体路径需要替换为你自己的安装路径</p>
-<pre><code>JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home
+<pre class="line-numbers language-none"><code class="language-none">JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home
 CLASSPAHT=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 PATH=$JAVA_HOME/bin:$PATH:
 export JAVA_HOME
 export CLASSPATH
 export PATH
 
-</code></pre></li>
+
+export ANDROID_HOME=/Users/hansion/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+
+</li>
+<li></li>
 </ol>
-<p>   export ANDROID_HOME=/Users/hansion/Library/Android/sdk<br>   export PATH=${PATH}:${ANDROID_HOME}/tools<br>   export PATH=${PATH}:${ANDROID_HOME}/platform-tools</p>
-<pre><code>
+<p>安装成功后，点击Start Server按钮</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200707173637.png"></p>
+<pre class="line-numbers language-none"><code class="language-none">{
+  "platformName": "Android",
+  "deviceName": "OPPO PACM00",
+  "platformVersion": "9",
+  "appPackage": "com.xxx.xxx",
+  "ignoreHiddenApiPolicyError": true,
+  "appActivity": "com.xxx.xxx.activity.SplashActivity",
+  "noReset": true
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
-
-2. 
-
-
-
-
-
-安装成功后，点击Start Server按钮
-
-![](https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200707173637.png)
-
-
-
-
-</code></pre><p>{<br>  “platformName”: “Android”,<br>  “deviceName”: “OPPO PACM00”,<br>  “platformVersion”: “9”,<br>  “appPackage”: “com.xxx.xxx”,<br>  “ignoreHiddenApiPolicyError”: true,<br>  “appActivity”: “com.xxx.xxx.activity.SplashActivity”,<br>  “noReset”: true<br>}</p>
-<p>```</p>
 <p>oppo手机需要在开发者选项中打开如下开关，否则会报错<code>shell settings delete global hidden_api_policy_pre_p_apps' exited with code 255'; Stderr: 'Security exception: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS</code></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200708103826.png" alt=""></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200708105317.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200708103826.png"></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200708105317.png"></p>
 <p>启动成功后，窗口上方的按键功能分别为：</p>
 <ol>
 <li>选择元素，可查看xml布局代码</li>
@@ -567,25 +579,7 @@ export PATH
 <li>复制当前xml代码</li>
 <li>关闭会话</li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+
             </div>
             <hr/>
 
@@ -1321,7 +1315,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.4k</span>&nbsp;字
+                class="white-color">7.5k</span>&nbsp;字
             
             
             

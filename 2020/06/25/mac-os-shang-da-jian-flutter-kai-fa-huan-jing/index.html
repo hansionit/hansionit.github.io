@@ -34,7 +34,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<meta name="generator" content="Hexo 6.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 
@@ -476,14 +478,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-02
+                    2023-06-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    1k
                 </div>
                 
 
@@ -505,12 +507,12 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>我们主要参考 <a href="https://flutterchina.club/get-started/install/" target="_blank" rel="noopener">Flutter中文网</a> 中的指导</p>
+                <p>我们主要参考 <a target="_blank" rel="noopener" href="https://flutterchina.club/get-started/install/">Flutter中文网</a> 中的指导</p>
 <h2 id="一、添加镜像"><a href="#一、添加镜像" class="headerlink" title="一、添加镜像"></a>一、添加镜像</h2><p>由于网络的原因，我们需要使用镜像进行下载，我们需要将下方的镜像配置到环境变量中</p>
 <h3 id="配置镜像到环境变量"><a href="#配置镜像到环境变量" class="headerlink" title="配置镜像到环境变量"></a>配置镜像到环境变量</h3><h4 id="macOS-Catalina（10-15）及以上版本"><a href="#macOS-Catalina（10-15）及以上版本" class="headerlink" title="macOS Catalina（10.15）及以上版本"></a>macOS Catalina（10.15）及以上版本</h4><ul>
-<li><p>在终端输入<code>open ~/.zshrc</code></p>
+<li><p>在终端输入<code>open ~/.zshrc </code></p>
 </li>
-<li><p>如果 提示文件不存在，则执行：<code>vim ~/.zshrc</code>新建文件</p>
+<li><p>如果 提示文件不存在，则执行：<code>vim ~/.zshrc </code>新建文件</p>
 </li>
 <li><p>将下方的镜像粘贴进入profile文件中</p>
 </li>
@@ -523,16 +525,27 @@
 <li>在终端输入<code>source /etc/profile</code> 使环境变量生效</li>
 </ul>
 <h4 id="国内镜像"><a href="#国内镜像" class="headerlink" title="国内镜像"></a>国内镜像</h4><p>Flutter官方为中国开发者搭建了临时镜像：</p>
-<pre><code>export PUB_HOSTED_URL=https://pub.flutter-io.cn
-export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn</code></pre><p>如果之后下载有问题，也可以重新配置环境变量，使用上海交通大学的镜像：</p>
-<pre><code>export PUB_HOSTED_URL=https://dart-pub.mirrors.sjtug.sjtu.edu.cn
-export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn</code></pre><h2 id="二、获取Flutter-SDK"><a href="#二、获取Flutter-SDK" class="headerlink" title="二、获取Flutter SDK"></a>二、获取Flutter SDK</h2><p>在合适的位置创建一个文件夹，这里我选择~/flutterDir目录</p>
+<pre class="line-numbers language-none"><code class="language-none">export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>如果之后下载有问题，也可以重新配置环境变量，使用上海交通大学的镜像：</p>
+<pre class="line-numbers language-none"><code class="language-none">export PUB_HOSTED_URL=https://dart-pub.mirrors.sjtug.sjtu.edu.cn
+export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+
+
+
+<h2 id="二、获取Flutter-SDK"><a href="#二、获取Flutter-SDK" class="headerlink" title="二、获取Flutter SDK"></a>二、获取Flutter SDK</h2><p>在合适的位置创建一个文件夹，这里我选择~/flutterDir目录</p>
 <p>在终端输入以下指令，进行clone:</p>
-<pre><code>git clone -b stable https://github.com/flutter/flutter.git</code></pre><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624161138.png" alt=""></p>
+<pre class="line-numbers language-none"><code class="language-none">git clone -b stable https://github.com/flutter/flutter.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624161138.png"></p>
 <p>Clone完成后，配置Flutter SDK到环境变量,流程同配置镜像</p>
-<pre><code>export PATH=~/flutterDir/flutter/bin:$PATH</code></pre><p>配置成功后，在终端输入 <code>flutter doctor</code> 对环境进行检测 ,第一次运行flutter命令时，会下载依赖并编译，所以时间比较长，需要耐心等待</p>
+<pre class="line-numbers language-none"><code class="language-none">export PATH=~/flutterDir/flutter/bin:$PATH<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>配置成功后，在终端输入 <code>flutter doctor</code> 对环境进行检测 ,第一次运行flutter命令时，会下载依赖并编译，所以时间比较长，需要耐心等待</p>
 <p>检测结果如下：</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624161930.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624161930.png"></p>
 <h2 id="三、解决现存问题"><a href="#三、解决现存问题" class="headerlink" title="三、解决现存问题"></a>三、解决现存问题</h2><p>由于我使用AndroidStudio开发，所以在这里只解决掉与Android相关的问题即可</p>
 <ol>
 <li><p>首先解决<code>Android toolchain</code>的问题，根据提示根据提示输入 <code>flutter doctor --android-licenses</code>,然后一直回复y即可</p>
@@ -541,60 +554,44 @@ export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn</code></pre><h
 <li><p>然后解决<code>Android Studio</code>的问题。问题描述说我的AndroidStudio没有安装Flutter插件和Dart插件，我们在AndroidStudio内，搜索安装Flutter插件即可，安装Flutter插件的同时也会将Dart安装上，我们无需再自行安装</p>
 </li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162508.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162508.png"></p>
 <p>如果由于网络原因AndroidStudio搜索插件失败，或者安装插件失败，可以进行如下设置（下图为AndroidStudio 4.0）：</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162718.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162718.png"></p>
 <p>填入<code>https://plugins.jetbrains.com/</code></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162809.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624162809.png"></p>
 <p>安装成功后，点击<code>Restart IDE</code>按钮重启AndroidStudio </p>
 <p>然后再次输入<code>flutter doctor</code>，我们可以看到该问题已经解决</p>
 <h2 id="四、安装完成，创建项目"><a href="#四、安装完成，创建项目" class="headerlink" title="四、安装完成，创建项目"></a>四、安装完成，创建项目</h2><p>接下来，我们就可以使用AndroidStudio创建一个Flutter项目，进行正常的开发了</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624163204.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624163204.png"></p>
 <p>这里选择我们之前clone的Flutter SDK的目录</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624163520.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624163520.png"></p>
 <p>如果最后一直卡在<code>creating flutter project</code>没有反应，则直接强行重启AndroidStudio，然后再open刚刚创建的项目即可。</p>
 <h2 id="五、解决运行时出现的问题"><a href="#五、解决运行时出现的问题" class="headerlink" title="五、解决运行时出现的问题"></a>五、解决运行时出现的问题</h2><p>项目打开后，连上手机直接运行，检测是否有问题，可能遇到的问题如下：</p>
 <ol>
 <li><p>卡在<code>Running Gradle task 'assembleDebug'</code> 或者报错<code>Could not get resource 'xxxxxx'</code> 、<code>Could not find com.android.tools.build:gradle</code>等</p>
 <p>解决：在项目配置文件中添加阿里云镜像</p>
-<pre><code>maven { url 'https://maven.aliyun.com/repository/google/' }
+<pre class="line-numbers language-none"><code class="language-none">maven { url 'https://maven.aliyun.com/repository/google/' }
 maven { url 'https://maven.aliyun.com/repository/jcenter/' }
-maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }</code></pre><p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624171841.png" alt=""></p>
+maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624171841.png"></p>
 </li>
 </ol>
-<p>​        在Flutter配置中也添加阿里云镜像</p>
-<p>​        该文件在<code>Flutter安装目录/packages/flutter_tools/gradle/flutter.gradle</code></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624172440.png" alt=""></p>
-<pre><code>需要注意的是,因为Flutter的升级是依赖git.所以在以后Flutter更新版本的时候,即使用 flutter upgrade 命令升级.会提示你在本地的修改还没提交,到时候需要还原这里的改动再升级</code></pre><ol start="2">
+<p>​		在Flutter配置中也添加阿里云镜像</p>
+<p>​		该文件在<code>Flutter安装目录/packages/flutter_tools/gradle/flutter.gradle</code></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624172440.png"></p>
+<pre><code>需要注意的是,因为Flutter的升级是依赖git.所以在以后Flutter更新版本的时候,即使用 flutter upgrade 命令升级.会提示你在本地的修改还没提交,到时候需要还原这里的改动再升级
+</code></pre>
+<ol start="2">
 <li><p>Waiting for another flutter command to release the startup lock. 或者运行时显示 <no device=""></no></p>
 <p>解决方法：打开<code>Flutter安装目录/bin/cache</code> 目录,删除lockfile文件 重启AndroidStudio</p>
 </li>
+<li><p>项目中几乎所有代码都报错 main.dart一片红<br>解决方法： 将安卓SDK配置给flutter:flutter config –android-sdk &lt;你SDK的路径&gt;<br>如:flutter config –android-sdk /Users/hansion/Library/Android/sdk</p>
+</li>
+<li><p>安装应用时卡在  Installing build/app/outputs/apk/app.apk…<br>解决方法：重新插拔数据线,并且确认打开了usb调试并授权</p>
+</li>
 </ol>
-<ol start="3">
-<li>项目中几乎所有代码都报错 main.dart一片红<br>解决方法： 将安卓SDK配置给flutter:flutter config –android-sdk &lt;你SDK的路径&gt;<br>如:flutter config –android-sdk /Users/hansion/Library/Android/sdk</li>
-</ol>
-<ol start="4">
-<li>安装应用时卡在  Installing build/app/outputs/apk/app.apk…<br>解决方法：重新插拔数据线,并且确认打开了usb调试并授权</li>
-</ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+
             </div>
             <hr/>
 
@@ -1330,7 +1327,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.4k</span>&nbsp;字
+                class="white-color">7.5k</span>&nbsp;字
             
             
             

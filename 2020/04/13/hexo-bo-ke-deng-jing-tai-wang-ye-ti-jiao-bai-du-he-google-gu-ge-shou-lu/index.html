@@ -34,7 +34,9 @@
 
     <script src="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+<meta name="generator" content="Hexo 6.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 
@@ -480,14 +482,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-02
+                    2023-06-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.3k
+                    1.2k
                 </div>
                 
 
@@ -516,26 +518,34 @@
 <h3 id="生成站点地图"><a href="#生成站点地图" class="headerlink" title="生成站点地图"></a>生成站点地图</h3><ol>
 <li>安装站点地图生成插件</li>
 </ol>
-<pre><code>npm install hexo-generator-baidu-sitemap --save
-npm install hexo-generator-sitemap --save</code></pre><ol start="2">
+<pre class="line-numbers language-none"><code class="language-none">npm install hexo-generator-baidu-sitemap --save
+npm install hexo-generator-sitemap --save<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+
+
+<ol start="2">
 <li>在博客根目录的<code>_config.yml</code>中添加自动生成sitemap的配置</li>
 </ol>
-<pre><code>sitemap:
+<pre class="line-numbers language-none"><code class="language-none">sitemap:
   path: sitemap.xml
 baidusitemap:
-  path: baidusitemap.xml</code></pre><p>同时确认一下该文件里面url对应的是否是接下来要提交的域名</p>
+  path: baidusitemap.xml<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>同时确认一下该文件里面url对应的是否是接下来要提交的域名</p>
 <ol start="3">
 <li>生成和部署</li>
 </ol>
-<pre><code>hexo g
-hexo d</code></pre><p>此时会在<code>public</code>目录下生成两个文件</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo g
+hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>此时会在<code>public</code>目录下生成两个文件</p>
 <blockquote>
 <p><code>sitemap.xml</code> 用于提交给谷歌</p>
 <p><code>baidusitemap.xml</code> 用于提交给百度</p>
 </blockquote>
 <ol start="4">
 <li><p>部署成功后，在浏览器打开 <code>你的域名/baidusitemap.xml</code>，成功展示即代表成功</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210038.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210038.png"></p>
 </li>
 </ol>
 <h2 id="提交到百度站长（百度收录）"><a href="#提交到百度站长（百度收录）" class="headerlink" title="提交到百度站长（百度收录）"></a>提交到百度站长（百度收录）</h2><h3 id="解决百度不爬取Github-Pages的问题"><a href="#解决百度不爬取Github-Pages的问题" class="headerlink" title="解决百度不爬取Github Pages的问题"></a>解决百度不爬取Github Pages的问题</h3><p>如果你的博客部署在Github Pages,百度是不会爬取的，这种情况需要借用其他平台转换一下。</p>
@@ -544,68 +554,74 @@ hexo d</code></pre><p>此时会在<code>public</code>目录下生成两个文件
 <li><p>在coding中也创建一个博客项目，取得提交地址</p>
 </li>
 <li><p>在博客根目录的<code>_config.yml</code>中添加coding仓库的配置，注意增加了<code>-</code>号，这样在部署的时候会同时部署到Github 和 coding</p>
-<pre><code>deploy:
+<pre class="line-numbers language-none"><code class="language-none">deploy:
 - type: git
   repository: https://github.com/hansionit/hansionit.github.io.git
   branch: master
 - type: git
   repository: https://e.coding.net/hansion_it/Blog.git
-  branch: master</code></pre></li>
+  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
 <li><p><code>hexo g -d</code>生成部署一下，会提交代码到coding</p>
 </li>
 <li><p>在coding中开启pages服务，配置自定义域名，在你的域名解析控制台增加两条CNAME，解析线路选择<code>百度</code>，让百度解析到coding的地址</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414122236.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414122236.png"></p>
 </li>
 </ol>
 <h3 id="sitemap方式提交"><a href="#sitemap方式提交" class="headerlink" title="sitemap方式提交"></a>sitemap方式提交</h3><ol>
 <li><p>查询是否被收录</p>
-<pre><code>site:你的域名</code></pre></li>
-</ol>
-<p>   <img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413204214.png" alt=""></p>
-<ol start="2">
+<pre class="line-numbers language-none"><code class="language-none">site:你的域名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413204214.png"></p>
+</li>
 <li><p>若没有收录，则点击<code>提交网址</code>进行提交</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414122915.png" alt=""></p>
-<p>然后打开 <a href="https://ziyuan.baidu.com/" target="_blank" rel="noopener">百度搜索资源平台</a>，进入<code>站点管理</code> -&gt; <code>添加网站</code></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414122915.png"></p>
+<p>然后打开 <a target="_blank" rel="noopener" href="https://ziyuan.baidu.com/">百度搜索资源平台</a>，进入<code>站点管理</code> -&gt; <code>添加网站</code></p>
 </li>
 </ol>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413202939.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413202939.png"></p>
 <ol start="3">
 <li><p>添加完网站后，点击<code>管理站点</code> -&gt; <code>站点属性设置</code></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210128.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210128.png"></p>
 </li>
 <li><p>选择链接提交</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210323.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210323.png"></p>
 </li>
-</ol>
-<ol start="5">
 <li><p>选择sitemap，输入上文中的sitmap地址，点击提交</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210527.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413210527.png"></p>
 </li>
 </ol>
 <p>如果提示错误，<strong>以下文件已经提交过了，如想重新提交，请先到文件对应工具的站点下删除此文件。</strong></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413211123.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413211123.png"></p>
 <p>可在下方进行勾选删除后重新提交，如果链接一模一样，没有必要删除，点击删除按钮左边的<code>手动更新文件</code>更新一下即可</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413211221.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413211221.png"></p>
 <h2 id="主动推送方式提交"><a href="#主动推送方式提交" class="headerlink" title="主动推送方式提交"></a>主动推送方式提交</h2><ol>
 <li><p>安装插件<code>npm install hexo-baidu-url-submit --save</code></p>
 </li>
 <li><p>在博客根目录的<code>config.yml</code>中添加</p>
-<pre><code>baidu_url_submit:
+<pre class="line-numbers language-none"><code class="language-none">baidu_url_submit:
   count: 100                 # 提交最新的多少个链接
   host:       # 在百度站长平台中添加的域名
   token:     # 秘钥
-  path: baidu_urls.txt</code></pre><p>token在推送的接口中有</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413212519.png" alt=""></p>
+  path: baidu_urls.txt<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>token在推送的接口中有</p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413212519.png"></p>
 <ol start="3">
 <li><p>同样是该文件，在<code>deployer</code>中新加一行<code>type: baidu_url_submitter</code>,注意需要为两个<code>type</code>前面添加<code>-</code>符号，结果如：</p>
-<pre><code>deploy:
+<pre class="line-numbers language-none"><code class="language-none">deploy:
 - type: git
   repository: https://e.coding.net/hansion_it/Blog.git
   branch: master
-- type: baidu_url_submitter</code></pre></li>
+- type: baidu_url_submitter<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
 <li><p>生成部署</p>
-<pre><code>hexo g
-hexo d</code></pre><p>若最后有输出<code>{"remain":2997,"success":3} INFO  Deploy done: baidu_url_submitter</code>,则代表成功,success的值代表成功多少条，remain的值代表当天剩余可推送条数</p>
+<pre class="line-numbers language-none"><code class="language-none">hexo g
+hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>若最后有输出<code>{"remain":2997,"success":3} INFO  Deploy done: baidu_url_submitter</code>,则代表成功,success的值代表成功多少条，remain的值代表当天剩余可推送条数</p>
 </li>
 </ol>
 </li>
@@ -613,47 +629,29 @@ hexo d</code></pre><p>若最后有输出<code>{"remain":2997,"success":3} INFO  
 <h3 id="自动推送方式提交"><a href="#自动推送方式提交" class="headerlink" title="自动推送方式提交"></a>自动推送方式提交</h3><p>Hexo的有些主题已完成了此步骤，可先自行确认是否已经完成，一般完成此步骤的主题的<code>_config.yml</code>文件中会有<code>baidu_push</code>属性，将其设置为<code>true</code></p>
 <p>选择<code>自动推送</code> -&gt; <code>复制代码</code></p>
 <p>没有集成这项功能的，我们可以把代码粘贴到 <code>header.ejs</code> 文件的 <code>&lt;head&gt;</code> 与 <code>&lt;/head&gt;</code> 标签之间</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413211705.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413211705.png"></p>
 <h2 id="提交到谷歌搜索（谷歌收录）"><a href="#提交到谷歌搜索（谷歌收录）" class="headerlink" title="提交到谷歌搜索（谷歌收录）"></a>提交到谷歌搜索（谷歌收录）</h2><ol>
-<li><p>进入<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN" target="_blank" rel="noopener">Google Search Console</a> 登录你的谷歌账号</p>
+<li><p>进入<a target="_blank" rel="noopener" href="https://www.google.com/webmasters/tools/home?hl=zh-CN">Google Search Console</a> 登录你的谷歌账号</p>
 </li>
 <li><p>在<code>网址前缀</code>中填写地址</p>
 </li>
 <li><p>下载验证文件</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414124339.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414124339.png"></p>
 </li>
 <li><p>存入<strong>主题</strong>的<code>source</code>目录，而不是根目录的source目录，<code>hexo g -d</code>生成部署，然后点击<code>验证</code>，验证成功如下图所示。若提示<code>您的验证文件中的内容不正确。您使用的验证文件是从这里下载的吗?</code>,你需要检查一下目录是否放至正确</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414132047.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414132047.png"></p>
 </li>
 <li><p>点击<code>前往资源页面</code>，点击<code>站点地图</code>,输入站点地图的地址，点击<code>提交</code></p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414132514.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414132514.png"></p>
 </li>
 <li><p>提交成功后，若显示<code>无法获取</code>，点击<code>无法获取</code>会进行网页获取，再刷新网页即可显示成功</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414132654.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414132654.png"></p>
 </li>
 <li><p>可以顺便把百度的sitemap也提交上<code>baidusitemap.xml</code>,成功结果如下：</p>
-<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414132951.png" alt=""></p>
+<p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200414132951.png"></p>
 </li>
 </ol>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
+
             </div>
             <hr/>
 
@@ -1393,7 +1391,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">8.4k</span>&nbsp;字
+                class="white-color">7.5k</span>&nbsp;字
             
             
             
