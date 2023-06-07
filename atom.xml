@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>时光小屋</title>
+  
+  <subtitle>时光小屋</subtitle>
+  <link href="http://www.hansion.win/atom.xml" rel="self"/>
+  
+  <link href="http://www.hansion.win/"/>
+  <updated>2023-06-07T10:16:43.313Z</updated>
+  <id>http://www.hansion.win/</id>
+  
+  <author>
+    <name>Hansion</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo版本升级</title>
+    <link href="http://www.hansion.win/2023/06/07/hexo-ban-ben-sheng-ji/"/>
+    <id>http://www.hansion.win/2023/06/07/hexo-ban-ben-sheng-ji/</id>
+    <published>2023-06-07T04:29:52.000Z</published>
+    <updated>2023-06-07T10:16:43.313Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、升级node版本&quot;&gt;&lt;a href=&quot;#一、升级node版本&quot; class=&quot;headerlink&quot; title=&quot;一、升级node版本&quot;&gt;&lt;/a&gt;一、升级node版本&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;清理npm缓存&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Hexo" scheme="http://www.hansion.win/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac Os上IDEA配合Tomcat实现Servlet初步访问</title>
+    <link href="http://www.hansion.win/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/"/>
+    <id>http://www.hansion.win/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/</id>
+    <published>2020-07-18T06:32:02.000Z</published>
+    <updated>2023-06-07T09:58:33.573Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;JDK和Tomcat的安装可以参考我之前的文章&lt;/p&gt;
+&lt;h2 id=&quot;创建Servlet项目&quot;&gt;&lt;a href=&quot;#创建Servlet项目&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Flutter" scheme="http://www.hansion.win/categories/Flutter/"/>
+    
+    
+    <category term="Java EE" scheme="http://www.hansion.win/tags/Java-EE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Mac插入移动硬盘不显示 磁盘工具显示未装载状态的问题</title>
+    <link href="http://www.hansion.win/2020/07/18/jie-jue-mac-cha-ru-yi-dong-ying-pan-bu-xian-shi-ci-pan-gong-ju-xian-shi-wei-zhuang-zai-zhuang-tai-de-wen-ti/"/>
+    <id>http://www.hansion.win/2020/07/18/jie-jue-mac-cha-ru-yi-dong-ying-pan-bu-xian-shi-ci-pan-gong-ju-xian-shi-wei-zhuang-zai-zhuang-tai-de-wen-ti/</id>
+    <published>2020-07-18T00:42:43.000Z</published>
+    <updated>2023-06-07T09:24:59.537Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;由于手欠，未退出硬盘就直接拔掉了移动硬盘。导致再次插入Mac时，Finder中无法找到移动硬盘。&lt;/p&gt;
+&lt;p&gt;通过磁盘工具查看，移动硬盘是未装载的状态。&lt;/p&gt;
+&lt;p&gt;本文解决的是本身可以装载的硬盘由于某些原因而装载不上的问题，至于第一次使用就无法装载的问题，大概率是磁盘</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Mac" scheme="http://www.hansion.win/tags/Mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac OS搭建自动化测试环境Appium</title>
+    <link href="http://www.hansion.win/2020/07/07/mac-os-da-jian-zi-dong-hua-ce-shi-huan-jing-appium/"/>
+    <id>http://www.hansion.win/2020/07/07/mac-os-da-jian-zi-dong-hua-ce-shi-huan-jing-appium/</id>
+    <published>2020-07-07T11:20:31.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;安装Node-js&quot;&gt;&lt;a href=&quot;#安装Node-js&quot; class=&quot;headerlink&quot; title=&quot;安装Node.js&quot;&gt;&lt;/a&gt;安装Node.js&lt;/h3&gt;&lt;p&gt;方法一：官网下载（新手推荐） &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Flutter" scheme="http://www.hansion.win/categories/Flutter/"/>
+    
+    
+    <category term="Appium,安卓,iOS" scheme="http://www.hansion.win/tags/Appium-%E5%AE%89%E5%8D%93-iOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac OS上搭建Flutter开发环境</title>
+    <link href="http://www.hansion.win/2020/06/25/mac-os-shang-da-jian-flutter-kai-fa-huan-jing/"/>
+    <id>http://www.hansion.win/2020/06/25/mac-os-shang-da-jian-flutter-kai-fa-huan-jing/</id>
+    <published>2020-06-25T07:56:03.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我们主要参考 &lt;a href=&quot;https://flutterchina.club/get-started/install/&quot;&gt;Flutter中文网&lt;/a&gt; 中的指导&lt;/p&gt;
+&lt;h2 id=&quot;一、添加镜像&quot;&gt;&lt;a href=&quot;#一、添加镜像&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Flutter" scheme="http://www.hansion.win/categories/Flutter/"/>
+    
+    
+    <category term="Flutter" scheme="http://www.hansion.win/tags/Flutter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac OS安装JDK与Tomcat</title>
+    <link href="http://www.hansion.win/2020/06/13/mac-os-an-zhuang-jdk-yu-tomcat/"/>
+    <id>http://www.hansion.win/2020/06/13/mac-os-an-zhuang-jdk-yu-tomcat/</id>
+    <published>2020-06-13T05:58:15.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Mac-OS安装JDK&quot;&gt;&lt;a href=&quot;#Mac-OS安装JDK&quot; class=&quot;headerlink&quot; title=&quot;Mac OS安装JDK&quot;&gt;&lt;/a&gt;Mac OS安装JDK&lt;/h3&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Java" scheme="http://www.hansion.win/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android内存调度机制</title>
+    <link href="http://www.hansion.win/2020/06/13/android-nei-cun-diao-du-ji-zhi/"/>
+    <id>http://www.hansion.win/2020/06/13/android-nei-cun-diao-du-ji-zhi/</id>
+    <published>2020-06-13T02:43:43.000Z</published>
+    <updated>2023-06-07T09:24:59.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h3&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Android开发高级知识" scheme="http://www.hansion.win/categories/Android%E5%BC%80%E5%8F%91%E9%AB%98%E7%BA%A7%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="Android" scheme="http://www.hansion.win/tags/Android/"/>
+    
+    <category term="Android虚拟机" scheme="http://www.hansion.win/tags/Android%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Mac上&quot;adb:command not found&quot;问题</title>
+    <link href="http://www.hansion.win/2020/06/04/jie-jue-mac-shang-adb-command-not-found-wen-ti/"/>
+    <id>http://www.hansion.win/2020/06/04/jie-jue-mac-shang-adb-command-not-found-wen-ti/</id>
+    <published>2020-06-04T04:36:14.000Z</published>
+    <updated>2023-06-07T09:24:59.537Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;解决adb-command-not-found&quot;&gt;&lt;a href=&quot;#解决adb-command-not-found&quot; class=&quot;headerlink&quot; title=&quot;解决adb: command not found&quot;&gt;&lt;/a&gt;解决adb: command</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具安装与使用" scheme="http://www.hansion.win/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修改Android Studio的build-gradle默认模板</title>
+    <link href="http://www.hansion.win/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/"/>
+    <id>http://www.hansion.win/2020/06/04/xiu-gai-android-studio-de-build-gradle-mo-ren-mo-ban/</id>
+    <published>2020-06-04T04:31:11.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;此处以Mac OS 为例&lt;/p&gt;
+&lt;p&gt;打开Finder，在左侧找到“应用程序” -&amp;gt; Android Studio -&amp;gt; 显示包内容&lt;/p&gt;
+&lt;p&gt;具体路径：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;/Applications/Android</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Android" scheme="http://www.hansion.win/tags/Android/"/>
+    
+    <category term="锦上添花小技巧" scheme="http://www.hansion.win/tags/%E9%94%A6%E4%B8%8A%E6%B7%BB%E8%8A%B1%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac切换Python版本</title>
+    <link href="http://www.hansion.win/2020/06/04/mac-qie-huan-python-ban-ben/"/>
+    <id>http://www.hansion.win/2020/06/04/mac-qie-huan-python-ban-ben/</id>
+    <published>2020-06-04T04:18:20.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Mac默认自带Python,但版本较低，例如我本机自带的版本为2.7.16&lt;/p&gt;
+&lt;p&gt;但我想使用Python3，安装了Python3，怎么才能改成默认使用我们想要的版本呢？&lt;/p&gt;
+&lt;p&gt;此处以切换至Python3为例&lt;/p&gt;
+&lt;h3 id=&quot;获取路径&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="http://www.hansion.win/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="http://www.hansion.win/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac使用brew安装软件缺少权限的问题</title>
+    <link href="http://www.hansion.win/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/"/>
+    <id>http://www.hansion.win/2020/06/04/mac-shi-yong-brew-an-zhuang-ruan-jian-que-shao-quan-xian-de-wen-ti/</id>
+    <published>2020-06-04T04:11:10.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;错误信息如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Error: The following directories are not writable by your user:&lt;br&gt;/usr/local/share/man/man8&lt;/p&gt;
+&lt;p&gt;You</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具安装与使用" scheme="http://www.hansion.win/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac OS安装brew和安装wget</title>
+    <link href="http://www.hansion.win/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/"/>
+    <id>http://www.hansion.win/2020/06/04/os-an-zhuang-brew-he-an-zhuang-wget/</id>
+    <published>2020-06-04T04:07:11.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;查看brew的版本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;brew --version&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;ul&gt;
+&lt;li&gt;安装brew (brew:</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具安装与使用" scheme="http://www.hansion.win/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题</title>
+    <link href="http://www.hansion.win/2020/05/11/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/"/>
+    <id>http://www.hansion.win/2020/05/11/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</id>
+    <published>2020-05-11T06:18:12.000Z</published>
+    <updated>2023-06-07T10:16:43.313Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客等静态网页提交百度和Google谷歌收录</title>
+    <link href="http://www.hansion.win/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/"/>
+    <id>http://www.hansion.win/2020/04/13/hexo-bo-ke-deng-jing-tai-wang-ye-ti-jiao-bai-du-he-google-gu-ge-shou-lu/</id>
+    <published>2020-04-13T12:18:01.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;站点地图&quot;&gt;&lt;a href=&quot;#站点地图&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Hexo" scheme="http://www.hansion.win/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TypeError [ERR_INVALID_ARG_TYPE]/ The &quot;mode&quot; argument must be integer. Received an instance of Object</title>
+    <link href="http://www.hansion.win/2020/04/13/git-cao-zuo-bao-cuo/"/>
+    <id>http://www.hansion.win/2020/04/13/git-cao-zuo-bao-cuo/</id>
+    <published>2020-04-13T12:18:01.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;问题原因&quot;&gt;&lt;a href=&quot;#问题原因&quot; class=&quot;headerlink&quot; title=&quot;问题原因&quot;&gt;&lt;/a&gt;问题原因&lt;/h3&gt;&lt;p&gt;在使用hexo时，提交到git报错&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TypeError</summary>
+        
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="工具安装与使用" scheme="http://www.hansion.win/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git新建仓库提交代码</title>
+    <link href="http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/"/>
+    <id>http://www.hansion.win/2020/04/13/git-xin-jian-cang-ku-ti-jiao-dai-ma/</id>
+    <published>2020-04-13T11:38:55.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;创建仓库&quot;&gt;&lt;a href=&quot;#创建仓库&quot; class=&quot;headerlink&quot; title=&quot;创建仓库&quot;&gt;&lt;/a&gt;创建仓库&lt;/h2&gt;&lt;p&gt;在Github/Coding/码云/GitLab等新建项目&lt;/p&gt;
+&lt;h2 id=&quot;提交代码&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Git" scheme="http://www.hansion.win/categories/Git/"/>
+    
+    
+    <category term="Git" scheme="http://www.hansion.win/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo搭建个人博客-Mac/Windows-Coding/Github/码云各种平台完全介绍</title>
+    <link href="http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/"/>
+    <id>http://www.hansion.win/2020/04/13/hexo-da-jian-ge-ren-bo-ke-mac-windows-github-ma-yun-ge-chong-ping-tai-wan-quan-jie-shao/</id>
+    <published>2020-04-13T04:29:52.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;配置环境&quot;&gt;&lt;a href=&quot;#配置环境&quot; class=&quot;headerlink&quot; title=&quot;配置环境&quot;&gt;&lt;/a&gt;配置环境&lt;/h2&gt;&lt;h3 id=&quot;安装Git&quot;&gt;&lt;a href=&quot;#安装Git&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Hexo" scheme="http://www.hansion.win/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LruCache</title>
+    <link href="http://www.hansion.win/2015/06/13/lrucache/"/>
+    <id>http://www.hansion.win/2015/06/13/lrucache/</id>
+    <published>2015-06-13T05:13:33.000Z</published>
+    <updated>2023-06-07T09:24:59.533Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;LRU（Least Recently Used）最近最少使用，选择最近最少使用的元素进行淘汰的算法&lt;/p&gt;
+&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Android面试" scheme="http://www.hansion.win/categories/Android%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="Android" scheme="http://www.hansion.win/tags/Android/"/>
+    
+    <category term="面试" scheme="http://www.hansion.win/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
