@@ -166,7 +166,4 @@ $(function () {
                 $('.m-nav-item.m-nav-show').removeClass('m-nav-show');
             }
     });
-
-    // 初始化加载 tooltipped.
-    $('.tooltipped').tooltip();
 });
