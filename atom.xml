@@ -320,7 +320,12 @@
     <summary type="html">&lt;ul&gt;
 &lt;li&gt;查看brew的版本&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;brew --version&lt;span aria-hidden=&quot;true&quot;</summary>
+&lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;brew --version&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;ul&gt;
+&lt;li&gt;安装brew (brew:</summary>
         
       
     

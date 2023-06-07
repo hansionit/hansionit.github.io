@@ -37,8 +37,7 @@
 <meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -510,27 +509,27 @@
             <div id="articleContent">
                 <h3 id="解决adb-command-not-found"><a href="#解决adb-command-not-found" class="headerlink" title="解决adb: command not found"></a>解决adb: command not found</h3><ol>
 <li><p>打开终端,输入</p>
-<pre class="line-numbers language-none"><code class="language-none">cd ~/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">cd ~/</code></pre>
 
 
 </li>
 <li><p>(如果没有.bash_profile这个文件，则创建)输入:</p>
-<pre class="line-numbers language-none"><code class="language-none">touch .bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">touch .bash_profile</code></pre>
 
 
 </li>
 <li><p>打开.bash_profile文件</p>
-<pre class="line-numbers language-none"><code class="language-none">open .bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">open .bash_profile</code></pre>
 
 <p>如果有错误，无法编辑，就改用</p>
-<pre class="line-numbers language-none"><code class="language-none">vim .bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">vim .bash_profile</code></pre>
 
 
 </li>
 <li><p>添加如下配置</p>
-<pre class="line-numbers language-none"><code class="language-none">export ANDROID_HOME=/Users/hansion/Library/Android/sdk
+<pre class="language-none"><code class="language-none">export ANDROID_HOME=/Users/hansion/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
-export PATH=${PATH}:${ANDROID_HOME}/platform-tools<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools</code></pre>
 
 <p>其中<code>/Users/hansion/Library/Android/sdk</code>是Android SDK安装目录，根据自己的安装目录填写</p>
 <p>使用AndroidStudio可快速获取，获取方法见下图：</p>
@@ -539,7 +538,7 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools<span aria-hidden="true" class
 <li><p>使配置生效,终端输入：</p>
 </li>
 </ol>
-<pre class="line-numbers language-none"><code class="language-none">source .bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">source .bash_profile</code></pre>
 
 
 

@@ -37,8 +37,7 @@
 <meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -519,25 +518,25 @@
 <h3 id="生成站点地图"><a href="#生成站点地图" class="headerlink" title="生成站点地图"></a>生成站点地图</h3><ol>
 <li>安装站点地图生成插件</li>
 </ol>
-<pre class="line-numbers language-none"><code class="language-none">npm install hexo-generator-baidu-sitemap --save
-npm install hexo-generator-sitemap --save<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">npm install hexo-generator-baidu-sitemap --save
+npm install hexo-generator-sitemap --save</code></pre>
 
 
 
 <ol start="2">
 <li>在博客根目录的<code>_config.yml</code>中添加自动生成sitemap的配置</li>
 </ol>
-<pre class="line-numbers language-none"><code class="language-none">sitemap:
+<pre class="language-none"><code class="language-none">sitemap:
   path: sitemap.xml
 baidusitemap:
-  path: baidusitemap.xml<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+  path: baidusitemap.xml</code></pre>
 
 <p>同时确认一下该文件里面url对应的是否是接下来要提交的域名</p>
 <ol start="3">
 <li>生成和部署</li>
 </ol>
-<pre class="line-numbers language-none"><code class="language-none">hexo g
-hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">hexo g
+hexo d</code></pre>
 
 <p>此时会在<code>public</code>目录下生成两个文件</p>
 <blockquote>
@@ -555,13 +554,13 @@ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 <li><p>在coding中也创建一个博客项目，取得提交地址</p>
 </li>
 <li><p>在博客根目录的<code>_config.yml</code>中添加coding仓库的配置，注意增加了<code>-</code>号，这样在部署的时候会同时部署到Github 和 coding</p>
-<pre class="line-numbers language-none"><code class="language-none">deploy:
+<pre class="language-none"><code class="language-none">deploy:
 - type: git
   repository: https://github.com/hansionit/hansionit.github.io.git
   branch: master
 - type: git
   repository: https://e.coding.net/hansion_it/Blog.git
-  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+  branch: master</code></pre>
 </li>
 <li><p><code>hexo g -d</code>生成部署一下，会提交代码到coding</p>
 </li>
@@ -571,7 +570,7 @@ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 </ol>
 <h3 id="sitemap方式提交"><a href="#sitemap方式提交" class="headerlink" title="sitemap方式提交"></a>sitemap方式提交</h3><ol>
 <li><p>查询是否被收录</p>
-<pre class="line-numbers language-none"><code class="language-none">site:你的域名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">site:你的域名</code></pre>
 
 
 
@@ -602,25 +601,25 @@ hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></sp
 <li><p>安装插件<code>npm install hexo-baidu-url-submit --save</code></p>
 </li>
 <li><p>在博客根目录的<code>config.yml</code>中添加</p>
-<pre class="line-numbers language-none"><code class="language-none">baidu_url_submit:
+<pre class="language-none"><code class="language-none">baidu_url_submit:
   count: 100                 # 提交最新的多少个链接
   host:       # 在百度站长平台中添加的域名
   token:     # 秘钥
-  path: baidu_urls.txt<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+  path: baidu_urls.txt</code></pre>
 
 <p>token在推送的接口中有</p>
 <p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413212519.png"></p>
 <ol start="3">
 <li><p>同样是该文件，在<code>deployer</code>中新加一行<code>type: baidu_url_submitter</code>,注意需要为两个<code>type</code>前面添加<code>-</code>符号，结果如：</p>
-<pre class="line-numbers language-none"><code class="language-none">deploy:
+<pre class="language-none"><code class="language-none">deploy:
 - type: git
   repository: https://e.coding.net/hansion_it/Blog.git
   branch: master
-- type: baidu_url_submitter<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+- type: baidu_url_submitter</code></pre>
 </li>
 <li><p>生成部署</p>
-<pre class="line-numbers language-none"><code class="language-none">hexo g
-hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">hexo g
+hexo d</code></pre>
 
 <p>若最后有输出<code>{"remain":2997,"success":3} INFO  Deploy done: baidu_url_submitter</code>,则代表成功,success的值代表成功多少条，remain的值代表当天剩余可推送条数</p>
 </li>

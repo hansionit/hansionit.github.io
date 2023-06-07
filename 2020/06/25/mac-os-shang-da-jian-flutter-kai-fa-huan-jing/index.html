@@ -37,8 +37,7 @@
 <meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -526,23 +525,23 @@
 <li>在终端输入<code>source /etc/profile</code> 使环境变量生效</li>
 </ul>
 <h4 id="国内镜像"><a href="#国内镜像" class="headerlink" title="国内镜像"></a>国内镜像</h4><p>Flutter官方为中国开发者搭建了临时镜像：</p>
-<pre class="line-numbers language-none"><code class="language-none">export PUB_HOSTED_URL=https://pub.flutter-io.cn
-export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn</code></pre>
 
 <p>如果之后下载有问题，也可以重新配置环境变量，使用上海交通大学的镜像：</p>
-<pre class="line-numbers language-none"><code class="language-none">export PUB_HOSTED_URL=https://dart-pub.mirrors.sjtug.sjtu.edu.cn
-export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">export PUB_HOSTED_URL=https://dart-pub.mirrors.sjtug.sjtu.edu.cn
+export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn</code></pre>
 
 
 
 
 <h2 id="二、获取Flutter-SDK"><a href="#二、获取Flutter-SDK" class="headerlink" title="二、获取Flutter SDK"></a>二、获取Flutter SDK</h2><p>在合适的位置创建一个文件夹，这里我选择~/flutterDir目录</p>
 <p>在终端输入以下指令，进行clone:</p>
-<pre class="line-numbers language-none"><code class="language-none">git clone -b stable https://github.com/flutter/flutter.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git clone -b stable https://github.com/flutter/flutter.git</code></pre>
 
 <p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624161138.png"></p>
 <p>Clone完成后，配置Flutter SDK到环境变量,流程同配置镜像</p>
-<pre class="line-numbers language-none"><code class="language-none">export PATH=~/flutterDir/flutter/bin:$PATH<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">export PATH=~/flutterDir/flutter/bin:$PATH</code></pre>
 
 <p>配置成功后，在终端输入 <code>flutter doctor</code> 对环境进行检测 ,第一次运行flutter命令时，会下载依赖并编译，所以时间比较长，需要耐心等待</p>
 <p>检测结果如下：</p>
@@ -571,9 +570,9 @@ export FLUTTER_STORAGE_BASE_URL=https://mirrors.sjtug.sjtu.edu.cn<span aria-hidd
 <ol>
 <li><p>卡在<code>Running Gradle task 'assembleDebug'</code> 或者报错<code>Could not get resource 'xxxxxx'</code> 、<code>Could not find com.android.tools.build:gradle</code>等</p>
 <p>解决：在项目配置文件中添加阿里云镜像</p>
-<pre class="line-numbers language-none"><code class="language-none">maven { url 'https://maven.aliyun.com/repository/google/' }
+<pre class="language-none"><code class="language-none">maven { url 'https://maven.aliyun.com/repository/google/' }
 maven { url 'https://maven.aliyun.com/repository/jcenter/' }
-maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }</code></pre>
 
 <p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200624171841.png"></p>
 </li>

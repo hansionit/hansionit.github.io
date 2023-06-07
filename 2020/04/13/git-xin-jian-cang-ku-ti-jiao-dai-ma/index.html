@@ -37,8 +37,7 @@
 <meta name="generator" content="Hexo 6.3.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -527,7 +526,7 @@
 <p><strong>Push rejected</strong></p>
 <p>​       Push to origin/master was rejected</p>
 <p>原因是没有指定分支，解决方法就是按提示</p>
-<pre class="line-numbers language-none"><code class="language-none">git branch --set-upstream master origin/master<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git branch --set-upstream master origin/master</code></pre>
 
 
 </li>
@@ -535,7 +534,7 @@
 <p>The –set-upstream flag is deprecated and will be removed. Consider using –track or –set-upstream-to</p>
 <p>Branch master set up to track remote branch master from origin.</p>
 <p>我们按着提示重新设置后就可以提交了</p>
-<pre class="line-numbers language-none"><code class="language-none">git branch --set-upstream-to  origin/master<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git branch --set-upstream-to  origin/master</code></pre>
 
 <p><img src="https://my-online-pics.oss-cn-beijing.aliyuncs.com/img/20200413195242.png"></p>
 </li>
@@ -548,22 +547,22 @@
 <p>hint: See the ‘Note about fast-forwards’ in ‘git push –help’ for details.</p>
 <p>主要原因是github中的README.md文件不在本地代码目录中</p>
 <p>先通过如下命令执行代码合并</p>
-<pre class="line-numbers language-none"><code class="language-none">git pull --rebase origin master<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git pull --rebase origin master</code></pre>
 
 <p> 如果无法pull，报错 fatal: refusing to merge unrelated histories,就改用以下命令</p>
-<pre class="line-numbers language-none"><code class="language-none">git pull origin master --allow-unrelated-histories<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git pull origin master --allow-unrelated-histories</code></pre>
 
 <p>然后可以看到本地代码库中多了README.md文件,再次push</p>
-<pre class="line-numbers language-none"><code class="language-none">git push origin master<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git push origin master</code></pre>
 
 
 </li>
 <li><p>提示：fatal: remote origin already exists</p>
 <p>一般在执行第4步时出现，主要原因是已经添加了远程仓库了，如果需要更换，需要先移除远程仓库</p>
-<pre class="line-numbers language-none"><code class="language-none">git remote rm origin<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git remote rm origin</code></pre>
 
 <p>然后再重新从第4步开始</p>
-<pre class="line-numbers language-none"><code class="language-none">git remote add origin 提交地址<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git remote add origin 提交地址</code></pre>
 
 
 </li>
@@ -575,10 +574,10 @@
 <p>​    回车(CR, ASCII 13, \r) 、换行(LF, ASCII 10, \n)    这两个ACSII字符不会在屏幕有任何输出，但在Windows中广泛使用来标识一行的结束，而在Linux/UNIX系统中只有换行符。    也就是说在<strong>windows中的换行符为 CRLF， 而在linux下的换行符为：LF</strong><br>​    使用git来生成工程后，文件中的换行符为LF， 当执行git add .时，系统提示：LF 将被转换成 CRLF</p>
 <p>解决方法：</p>
 <p>​    删除刚刚生成的.git文件</p>
-<pre class="line-numbers language-none"><code class="language-none">rm -rf .git <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">rm -rf .git </code></pre>
 
 <p>配置core.autocrlf为false</p>
-<pre class="line-numbers language-none"><code class="language-none">git config --global core.autocrlf false<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="language-none"><code class="language-none">git config --global core.autocrlf false</code></pre>
 
 <p>然后重新重第1步开始</p>
 </li>
