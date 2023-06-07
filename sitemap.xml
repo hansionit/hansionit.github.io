@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.hansion.win/2020/06/25/mac-os-shang-da-jian-flutter-kai-fa-huan-jing/</loc>
+    
+    <lastmod>2023-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hansion.win/2020/07/07/mac-os-da-jian-zi-dong-hua-ce-shi-huan-jing-appium/</loc>
+    
+    <lastmod>2023-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hansion.win/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/</loc>
+    
+    <lastmod>2023-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.hansion.win/2023/06/07/hexo-ban-ben-sheng-ji/</loc>
     
     <lastmod>2023-06-07</lastmod>
@@ -12,15 +39,6 @@
   
   <url>
     <loc>http://www.hansion.win/2020/05/11/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</loc>
-    
-    <lastmod>2023-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.hansion.win/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/</loc>
     
     <lastmod>2023-06-07</lastmod>
     
@@ -182,25 +200,7 @@
   </url>
   
   <url>
-    <loc>http://www.hansion.win/2020/06/25/mac-os-shang-da-jian-flutter-kai-fa-huan-jing/</loc>
-    
-    <lastmod>2023-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.hansion.win/2020/06/13/mac-os-an-zhuang-jdk-yu-tomcat/</loc>
-    
-    <lastmod>2023-06-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.hansion.win/2020/07/07/mac-os-da-jian-zi-dong-hua-ce-shi-huan-jing-appium/</loc>
     
     <lastmod>2023-06-07</lastmod>
     
@@ -408,6 +408,20 @@
   
   <url>
     <loc>http://www.hansion.win/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2023-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hansion.win/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2023-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hansion.win/categories/Java-EE/</loc>
     <lastmod>2023-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
