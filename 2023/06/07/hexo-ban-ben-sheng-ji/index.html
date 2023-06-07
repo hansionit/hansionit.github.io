@@ -34,10 +34,10 @@
 
     <script src="https://cdn.jsdelivr.net/gh/hansionit/hansionit.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 6.3.0">
+<meta name="generator" content="Hexo 6.0.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="时光小屋" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -489,7 +489,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    99
+                    287
                 </div>
                 
 
@@ -511,50 +511,90 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="一、升级node版本"><a href="#一、升级node版本" class="headerlink" title="一、升级node版本"></a>一、升级node版本</h3><ol>
+                <h3 id="一、升级node版本"><a href="#一、升级node版本" class="headerlink" title="一、升级node版本"></a>一、升级node版本</h3><p>非必要步骤，node版本过新可能会导致与Hexo不兼容，会出现一些问题，如主页空白等问题。如果遇到相关问题，可进行node降级</p>
+<ol>
 <li>清理npm缓存</li>
 </ol>
-<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">npm</span> cache clean <span class="token parameter variable">-f</span></code></pre>
+<pre class="language-bash" data-language="bash"><code class="language-bash">sudo npm cache clean -f</code></pre>
 
 
 
 <ol start="2">
 <li>运行npm安装工具</li>
 </ol>
-<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">npm</span> <span class="token parameter variable">-g</span> <span class="token function">install</span> n</code></pre>
+<pre class="language-bash" data-language="bash"><code class="language-bash">sudo npm -g install n</code></pre>
 
 
 
 <ol start="3">
 <li>安装最新稳定版本</li>
 </ol>
-<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> n stable</code></pre>
+<pre class="language-bash" data-language="bash"><code class="language-bash">sudo n stable</code></pre>
 
 
 
+<h3 id="二、node降级"><a href="#二、node降级" class="headerlink" title="二、node降级"></a>二、node降级</h3><ol>
+<li>安装nvm</li>
+</ol>
+<pre class="language-bash" data-language="bash"><code class="language-bash">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash</code></pre>
 
-
-<h3 id="二、升级Hexo版本"><a href="#二、升级Hexo版本" class="headerlink" title="二、升级Hexo版本"></a>二、升级Hexo版本</h3><h4 id="查看当前版本"><a href="#查看当前版本" class="headerlink" title="查看当前版本"></a>查看当前版本</h4><pre class="language-bash" data-language="bash"><code class="language-bash">hexo version</code></pre>
-
-
-
-<h4 id="安装ncu"><a href="#安装ncu" class="headerlink" title="安装ncu"></a>安装ncu</h4><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">npm</span> <span class="token function">install</span> npm-check-updates <span class="token parameter variable">-g</span></code></pre>
-
-
-
-<h4 id="运行ncu"><a href="#运行ncu" class="headerlink" title="运行ncu"></a>运行ncu</h4><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> ncu</code></pre>
+<p>如果报错curl: (7) Failed connect to raw.githubusercontent.com:443； 拒绝连接</p>
+<p>则添加host：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">199.232.68.133 raw.githubusercontent.com</code></pre>
 
 
 
-<h4 id="根据提示依次输入，完成安装"><a href="#根据提示依次输入，完成安装" class="headerlink" title="根据提示依次输入，完成安装"></a>根据提示依次输入，完成安装</h4><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> ncu <span class="token parameter variable">-u</span></code></pre>
+<ol start="2">
+<li>验证nvm是否安装成功</li>
+</ol>
+<pre class="language-bash" data-language="bash"><code class="language-bash">nvm --version</code></pre>
 
 
 
-<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">npm</span> <span class="token function">install</span></code></pre>
+<ol start="3">
+<li>安装 node  12.14.0版本</li>
+</ol>
+<pre class="language-bash" data-language="bash"><code class="language-bash">nvm install 12.14.0</code></pre>
+
+
+
+<ol start="4">
+<li>选择node版本</li>
+</ol>
+<p>​	临时切换</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">nvm use 12.14.0</code></pre>
+
+<p>​	永久切换</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">nvm alias default 12.14.0</code></pre>
+
+
+
+<h3 id="三、升级Hexo版本"><a href="#三、升级Hexo版本" class="headerlink" title="三、升级Hexo版本"></a>三、升级Hexo版本</h3><h4 id="查看当前版本"><a href="#查看当前版本" class="headerlink" title="查看当前版本"></a>查看当前版本</h4><pre class="language-bash" data-language="bash"><code class="language-bash">hexo version</code></pre>
+
+
+
+<h4 id="安装ncu"><a href="#安装ncu" class="headerlink" title="安装ncu"></a>安装ncu</h4><pre class="language-bash" data-language="bash"><code class="language-bash">sudo npm install npm-check-updates -g</code></pre>
+
+
+
+<h4 id="运行ncu"><a href="#运行ncu" class="headerlink" title="运行ncu"></a>运行ncu</h4><pre class="language-bash" data-language="bash"><code class="language-bash">sudo ncu</code></pre>
+
+
+
+<h4 id="根据提示依次输入，完成安装"><a href="#根据提示依次输入，完成安装" class="headerlink" title="根据提示依次输入，完成安装"></a>根据提示依次输入，完成安装</h4><pre class="language-bash" data-language="bash"><code class="language-bash">sudo ncu -u</code></pre>
+
+
+
+<pre class="language-bash" data-language="bash"><code class="language-bash">sudo npm install</code></pre>
 
 
 
 <h4 id="查看当前版本，确认是否更新成功"><a href="#查看当前版本，确认是否更新成功" class="headerlink" title="查看当前版本，确认是否更新成功"></a>查看当前版本，确认是否更新成功</h4><pre class="language-bash" data-language="bash"><code class="language-bash">hexo version</code></pre>
+
+
+
+<p>如果更新成功后，执行hexo相关命令报错，并且错误与js-yaml有关，可尝试降级到6.0.0版本</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">npm i hexo@6.0.0</code></pre>
 
 
             </div>
@@ -1296,7 +1336,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">7.6k</span>&nbsp;字
+                class="white-color">7.8k</span>&nbsp;字
             
             
             
