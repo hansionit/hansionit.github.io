@@ -6,7 +6,7 @@
   <link href="http://www.hansion.win/atom.xml" rel="self"/>
   
   <link href="http://www.hansion.win/"/>
-  <updated>2023-06-07T09:58:33.573Z</updated>
+  <updated>2023-06-07T10:16:43.313Z</updated>
   <id>http://www.hansion.win/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo版本升级</title>
+    <link href="http://www.hansion.win/2023/06/07/hexo-ban-ben-sheng-ji/"/>
+    <id>http://www.hansion.win/2023/06/07/hexo-ban-ben-sheng-ji/</id>
+    <published>2023-06-07T04:29:52.000Z</published>
+    <updated>2023-06-07T10:16:43.313Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、升级node版本&quot;&gt;&lt;a href=&quot;#一、升级node版本&quot; class=&quot;headerlink&quot; title=&quot;一、升级node版本&quot;&gt;&lt;/a&gt;一、升级node版本&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;清理npm缓存&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="博客搭建" scheme="http://www.hansion.win/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Hexo" scheme="http://www.hansion.win/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac Os上IDEA配合Tomcat实现Servlet初步访问</title>
@@ -318,11 +348,11 @@
   </entry>
   
   <entry>
-    <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题.md</title>
+    <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题</title>
     <link href="http://www.hansion.win/2020/05/11/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/"/>
     <id>http://www.hansion.win/2020/05/11/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</id>
     <published>2020-05-11T06:18:12.000Z</published>
-    <updated>2023-06-07T09:58:33.573Z</updated>
+    <updated>2023-06-07T10:16:43.313Z</updated>
     
     
       

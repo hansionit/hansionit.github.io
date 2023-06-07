@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.hansion.win/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/</loc>
+    <loc>http://www.hansion.win/2023/06/07/hexo-ban-ben-sheng-ji/</loc>
     
     <lastmod>2023-06-07</lastmod>
     
@@ -12,6 +12,15 @@
   
   <url>
     <loc>http://www.hansion.win/2020/05/11/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</loc>
+    
+    <lastmod>2023-06-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.hansion.win/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/</loc>
     
     <lastmod>2023-06-07</lastmod>
     

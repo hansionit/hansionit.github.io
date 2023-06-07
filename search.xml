@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Hexo版本升级</title>
+      <link href="/2023/06/07/hexo-ban-ben-sheng-ji/"/>
+      <url>/2023/06/07/hexo-ban-ben-sheng-ji/</url>
+      
+        <content type="html"><![CDATA[<h3 id="一、升级node版本"><a href="#一、升级node版本" class="headerlink" title="一、升级node版本"></a>一、升级node版本</h3><ol><li>清理npm缓存</li></ol><pre class="language-bash" data-language="bash"><code class="language-bash">sudo npm cache clean -f</code></pre><ol start="2"><li>运行npm安装工具</li></ol><pre class="language-bash" data-language="bash"><code class="language-bash">sudo npm -g install n</code></pre><ol start="3"><li>安装最新稳定版本</li></ol><pre class="language-bash" data-language="bash"><code class="language-bash">sudo n stable</code></pre><h3 id="二、升级Hexo版本"><a href="#二、升级Hexo版本" class="headerlink" title="二、升级Hexo版本"></a>二、升级Hexo版本</h3><h4 id="查看当前版本"><a href="#查看当前版本" class="headerlink" title="查看当前版本"></a>查看当前版本</h4><pre class="language-bash" data-language="bash"><code class="language-bash">hexo version</code></pre><h4 id="安装ncu"><a href="#安装ncu" class="headerlink" title="安装ncu"></a>安装ncu</h4><pre class="language-bash" data-language="bash"><code class="language-bash">sudo npm install npm-check-updates -g</code></pre><h4 id="运行ncu"><a href="#运行ncu" class="headerlink" title="运行ncu"></a>运行ncu</h4><pre class="language-bash" data-language="bash"><code class="language-bash">sudo ncu</code></pre><h4 id="根据提示依次输入，完成安装"><a href="#根据提示依次输入，完成安装" class="headerlink" title="根据提示依次输入，完成安装"></a>根据提示依次输入，完成安装</h4><pre class="language-bash" data-language="bash"><code class="language-bash">sudo ncu -u</code></pre><pre class="language-bash" data-language="bash"><code class="language-bash">sudo npm install</code></pre><h4 id="查看当前版本，确认是否更新成功"><a href="#查看当前版本，确认是否更新成功" class="headerlink" title="查看当前版本，确认是否更新成功"></a>查看当前版本，确认是否更新成功</h4><pre class="language-bash" data-language="bash"><code class="language-bash">hexo version</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客搭建 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客搭建 </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mac Os上IDEA配合Tomcat实现Servlet初步访问</title>
       <link href="/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/"/>
       <url>/2020/07/18/mac-os-shang-idea-pei-he-tomcat-shi-xian-servlet-chu-bu-fang-wen/</url>
@@ -283,7 +310,7 @@
     
     
     <entry>
-      <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题.md</title>
+      <title>解决Mac系统浏览网页提示“您的连接不是私密连接”问题</title>
       <link href="/2020/05/11/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/"/>
       <url>/2020/05/11/jie-jue-mac-xi-tong-liu-lan-wang-ye-ti-shi-nin-de-lian-jie-bu-shi-si-mi-lian-jie-wen-ti/</url>
       
