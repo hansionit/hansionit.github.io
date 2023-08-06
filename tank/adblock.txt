@@ -31649,6 +31649,19 @@ oiunga.com
 sdfgbuy.com
 vmdlxj.xyz
 yjnhndt.com
+bnds4.site
+dwfjtz.xyz
+fcbqxt.xyz
+fengyukun03.cn
+hbqabbg.cn
+jpush0b.xyz
+jzdwl4.cn
+klufjdo.com
+oijmds.com
+rdbousn.cn
+vcydyzd.icu
+pierrebotton.com/global/
+/jianpian.obs.cn-
 103.71.154.76
 118.107.47.88
 143.92.60.44
@@ -31660,6 +31673,7 @@ yjnhndt.com
 23.234.217.11
 23.234.217.12
 1267a.xyz
+1378a.xyz
 1379a.xyz
 1u5gy.xyz
 3400.org
@@ -31705,6 +31719,7 @@ c4d4.cn
 c9r05q.com
 caider.fun
 canser1.top
+canser5.top
 ccnim.xyz
 cdmjur.xyz
 chiese.site
@@ -31727,9 +31742,11 @@ ddush.xyz
 dehaer.site
 destc8.icu
 dffrahax.com
+dfgpifa.com
 dfgymtx.icu
 dgayibf.icu
 dghhot.com
+dghkpp.xyz
 dhjrvj.xyz
 dhkipdsc.xyz
 dojyiu8.com
@@ -31743,6 +31760,7 @@ dzkwj0y.xyz
 eamqbaqzaewwq.top
 eers0cy.com
 eghyahl.cn
+eheb8.cn
 ejolul.xyz
 ekdky.cn
 enhad.xyz
@@ -31766,6 +31784,7 @@ fengyukun03.cn
 fhglcpf.icu
 fjsytjs.cn
 fjtroip.cn
+foirkrt.icu
 fszpzd.xyz
 fuliwang.cc
 fvxlhn.xyz
@@ -31795,6 +31814,7 @@ hgf8hck.com
 hghjks2.com
 hikykhz.icu
 hiqua.xyz
+hjgkr0g.xyz
 hjkiguy.com
 hkkeafj.cn
 hlnr9q.icu
@@ -31893,6 +31913,7 @@ mifyeldx.top
 misapopait.com
 mlstx.cn
 mmead.xyz
+mnhknds.com
 moobtcnse.xyz
 mrqbuf.xyz
 mt4v4.com
@@ -31905,6 +31926,7 @@ nhjkm.com
 nieae.xyz
 nifyeldc.top
 njogejt.icu
+nmdotj.xyz
 nmkghh.com
 nnfyxd.xyz
 nnqwe.xyz
@@ -32042,6 +32064,7 @@ xqblnei.cn
 xtbzff.xyz
 xukang09.cn
 xukou.net
+yegziyf.cn
 yh18h8s.com
 yhhnjg.com
 yjnhndt.com
@@ -38600,6 +38623,7 @@ mipengine.baidu.com/common?
 missyuan.com/sy/
 mitbbs.ca/ad_
 mitbbs.com/ad_
+mixer.sina.cn
 mixer.video.iqiyi.com/jp/mixin/resources/
 mm.nwell.net
 mm111.net/api.php?mod=ad&
@@ -39015,6 +39039,7 @@ shulihua.net/js/gzlishigoogle.js
 shulihua.net/js/topcen.js
 shulihua.net/js/yegonggao.js
 sihbb.com/yang/
+sina.cn/check?
 sina.cn/cm/sinaads_
 sina.com.cn/131/20150515/266.js
 sina.com.cn/3/2016/1114/45.js
@@ -40711,6 +40736,7 @@ fengkongcloud.com/fpv2.js
 gamersky.com/Common/GetHits.aspx?
 gias.jd.com/js/td.js
 gifshow.com/rest/wd/common/log/collect/acfun
+gk.sina.cn/v1/gkmatch?
 guahao.cn/common/js/plugins/fingerprint.js
 hao123img.com/resource/zt/widget/service/util/clickTrack.
 hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
