@@ -31675,6 +31675,17 @@ yegziyf.cn
 mixer.sina.cn
 sina.cn/check?
 gk.sina.cn/v1/gkmatch?
+89mtdab.xyz
+cfdns.vip
+ctquh0q.xyz
+gghmef7.com
+hacde3.icu
+kwcmrfb.cn
+lqjinx.xyz
+mkjnha.com
+naqiwjj.icu
+vwfppr.xyz
+wslbahe.top
 103.71.154.76
 118.107.47.88
 143.92.60.44
@@ -31830,6 +31841,7 @@ hfqdipw.cn
 hgehse.site
 hgf8hck.com
 hghjks2.com
+hgjjk45.com
 hikykhz.icu
 hiqua.xyz
 hjgkr0g.xyz
@@ -31838,6 +31850,7 @@ hkkeafj.cn
 hlnr9q.icu
 hmjhnkas.com
 hnfnjn.xyz
+hnxxt.net
 hohmaryt.com
 hongteng.xyz
 hpvwdkn.cn
@@ -31907,6 +31920,7 @@ kyplpw.com
 kyq3hky.icu
 kyq3xch.icu
 laink.xyz
+laljjn.xyz
 lamkghx.icu
 lanver.fun
 lbnqnp.xyz
@@ -31931,6 +31945,7 @@ lycjsix.cn
 metaversemolecule.com
 mifyeldx.top
 misapopait.com
+mkjnbg.com
 mkjnha.com
 mlstx.cn
 mmead.xyz
@@ -31990,6 +32005,7 @@ qpztub.xyz
 qqnde.xyz
 qrirud.xyz
 qselic.top
+qslbahy.top
 qwdbsjnql.com
 rabuagc.cn
 rdbousn.cn
@@ -32003,6 +32019,7 @@ rilwzsit.icu
 rjzqtz.xyz
 rlqoyht.icu
 ronbbf.xyz
+rpyor0k.xyz
 rtborp.xyz
 rtumdhdk.xyz
 rtumwzp.icu
@@ -32025,10 +32042,12 @@ suy5x8.com
 svarub.xyz
 svvev3.com
 tarqk5.com
+tfdmzsgy.icu
 tftran.shop
 tfttbd.xyz
 tgbevv.xyz
 thesac2.top
+thesac7.top
 tifyeldi.top
 tlprlf.xyz
 tmwbszn.icu
@@ -32048,10 +32067,12 @@ uejdsw.com
 ujnkn.com
 ulojlvmejkaem.xyz
 unjld.com
+uwgnpkd.cn
 uxtruz.xyz
 uyq3ruf.icu
 v1gyb.xyz
 vcydyzd.icu
+vghnnh.xyz
 vhjxrj.xyz
 vmdlxj.xyz
 vnfsbl.xyz
@@ -32080,6 +32101,7 @@ xiaoy.name
 xixrdn.xyz
 xjzyhp.xyz
 xlvqhx.xyz
+xmawwbz.icu
 xmxupz.xyz
 xn--zw0autp42d.cn
 xpcwrgy.cn
@@ -32091,6 +32113,7 @@ xukou.net
 yegziyf.cn
 yh18h8s.com
 yhhnjg.com
+yjnhkd.com
 yjnhndt.com
 ymhyw6.lol
 yuanmengbi.com
@@ -36854,6 +36877,7 @@ zgm1.com
 3dmgame.com/img/a/640-
 3dmgame.com/index.php?m=games&c=index&a=ztad&
 3dmgame.com/page/hlbt/
+3dmgame.com/page/img/shangcheng
 3dmgame.com/page/js/push_browser.js
 3dmgame.com/sw/zjworld/js/index.
 3dmgame.com/templets/common/show_js/show_js.js
@@ -37386,7 +37410,6 @@ bdimg.com/newmap/static/common/images/nav-ad_
 bdimg.com/static/m-question-new/widget/ad-union-
 bdimg.com/static/wkcore/widget/commerce/fengchao/
 bdimg.com/static/wkview/widget/download_after_activity_new/download_after_activity_new_
-bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/5e4103a342883a925a81aea7fe356bef
 bdstatic.com/img/image/su/
 bdstatic.com/pc_static/detail/game_promotion/
 bdstatic.com/player/t/j/AEoIJIPB.js
@@ -39341,6 +39364,7 @@ voc.com.cn/adsClick/
 voc.com.cn/js/xc/
 voc.com.cn/static/web/js/creattwo11.js
 vodttdy.com/template/zsy_badian/js/stui_
+vps234.com/resources/images/hosting-promotion/
 vrrw.net//templets/default/js/ad.js
 vupload.duowan.com
 vvvkp.com/template/ttk/img/
